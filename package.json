@@ -1,0 +1,21 @@
+{
+  "name": "retrieve-gbc-sermons",
+  "version": "1.0.0",
+  "description": "A package to retrieve the sermons from the GBC YouTube channel",
+  "main": "index.js",
+  "dependencies": {
+    "capitalize-title": "^1.0.0",
+    "csv-writer": "^1.6.0",
+    "dateformat": "^5.0.2",
+    "googleapis": "^89.0.0",
+    "jsonfile": "^6.1.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node process-sermons"
+  },
+  "author": "David Omenyo",
+  "license": "ISC",
+  "type": "module"
+}
