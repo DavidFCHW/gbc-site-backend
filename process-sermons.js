@@ -8,13 +8,13 @@ import {createObjectCsvWriter} from "csv-writer";
 
 
 //API keys and secrets
-const client_id = '';
-const client_secret = '';
-const api_key = '';
+const client_id = 'process.env.CLIENT_ID';
+const client_secret = 'process.env.CLIENT_SECRET';
+const api_key = 'process.env.API_KEY';
 
 //file paths of data output
-const datafile = 'data.json';
-const csvfile = 'data.csv';
+const all_data_file = 'all-data.json';
+const all_csv_file = 'all-data.csv';
 
 const youtubeBaseURL = 'https://youtube.com/watch?v=';
 
@@ -27,7 +27,7 @@ const sermonPlaylistId = 'PLypLoRrvfFpPGiPdoDeeDA9Q9wzwTM5I8';
 const livestreamPlaylistId = 'PLypLoRrvfFpPT3EdmDrUZ9IlVepySdMuz';
 const gbcPodcastId = '1vaBG0PUEdA75ji6cr74d3';
 
-//accessing the YouTube API
+//accessing the YouTube and Spotify APIs
 const youtube = google.youtube({
   version: 'v3',
   auth: api_key
@@ -65,7 +65,7 @@ function createSermonObject(item) {
     youTubeUrl: youtubeBaseURL + videoId,
     id: videoId
   }
-
+  console.log(sermon);
   data.sermons.push(sermon);
 }
 
@@ -80,7 +80,7 @@ function createLivestreamObject(item) {
   let title = lines.find(line => line.startsWith('title')).substring('title:'.length);
   title = capitalizeTitle(title.trim());
 
-  let scripture = lines.find(line => line.includes('scripture')).substring('scripture:'.length);
+  let scripture = lines.find(line => line.includes('scripture:')).substring('scripture:'.length);
   scripture = capitalizeTitle(scripture.trim());
 
   let videoId = item.contentDetails.videoId;
@@ -113,6 +113,8 @@ async function processData(requestParam) {
   while (requestParam.pageToken || next) {
     await youtube.playlistItems.list(requestParam).then(res => {
       let items = res.data.items;
+      // console.log(items[0]);
+      // console.log(items[0].snippet);
       if (items[0].snippet.title.toLowerCase().includes('service')) {
         items.forEach(createLivestreamObject);
       } else {
@@ -173,23 +175,24 @@ await spotify.clientCredentialsGrant().then(res => {
 });
 
 //writing data object to a JSON file.
-jsf.writeFileSync(datafile, data, {spaces: 2});
+jsf.writeFileSync(all_data_file, data, {spaces: 2});
+let csvHeader = [
+  {id: 'title', title: 'Title'},
+  {id: 'speaker', title: 'Speaker'},
+  {id: 'scripture', title: 'Scripture'},
+  {id: 'date_dirty', title: 'Date_Dirty'},
+  {id: 'date', title: 'Date'},
+  {id: 'youTubeUrl', title: 'YouTube URL'},
+  {id: 'id', title: 'ID'},
+  {id: 'sortId', title: 'Sort ID'},
+  {id: 'spotifyURL', title: 'Spotify URL'}
+];
 
-const csvWriter = createObjectCsvWriter({
-  path: csvfile,
-  header: [
-    {id: 'title', title: 'Title'},
-    {id: 'speaker', title: 'Speaker'},
-    {id: 'scripture', title: 'Scripture'},
-    {id: 'date_dirty', title: 'Date_Dirty'},
-    {id: 'date', title: 'Date'},
-    {id: 'youTubeUrl', title: 'YouTube URL'},
-    {id: 'id', title: 'ID'},
-    {id: 'sortId', title: 'Sort ID'},
-    {id: 'spotifyURL', title: 'Spotify URL'}
-  ]
-});
+await createObjectCsvWriter({
+  path: all_csv_file,
+  header: csvHeader
+}).writeRecords(data.sermons);
 
-await csvWriter.writeRecords(data.sermons);
+// await csvWriter.writeRecords(data.sermons);
 
 console.log(data.sermons.length);
