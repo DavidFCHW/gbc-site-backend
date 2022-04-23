@@ -1,6 +1,61 @@
 {
   "sermons": [
     {
+      "title": "Christ is Risen",
+      "speaker": "Ryan King",
+      "scripture": "1 Corinthians 15:1-11",
+      "date_dirty": "2022-04-16T23:00:00.000Z",
+      "date": "17 April 2022",
+      "youTubeUrl": "https://youtube.com/watch?v=x1xkPdBf0I0",
+      "id": "x1xkPdBf0I0",
+      "sortId": 265,
+      "spotifyURL": "https://open.spotify.com/episode/1N070rVE5frFyEB91jbrmG"
+    },
+    {
+      "title": "Small Groups and the Church's Heartbeat",
+      "speaker": "Ryan King",
+      "scripture": "Acts 2:42-47",
+      "date_dirty": "2022-04-09T23:00:00.000Z",
+      "date": "10 April 2022",
+      "youTubeUrl": "https://youtube.com/watch?v=GgoRAep3qrE",
+      "id": "GgoRAep3qrE",
+      "sortId": 264,
+      "spotifyURL": "https://open.spotify.com/episode/2RVAIqnwp3QKxRkCe1LpDp"
+    },
+    {
+      "title": "Will You Receive Jesus?",
+      "speaker": "Ryan King",
+      "scripture": "John 1:10-13",
+      "date_dirty": "2022-04-09T23:00:00.000Z",
+      "date": "10 April 2022",
+      "youTubeUrl": "https://youtube.com/watch?v=wIONP9PKp-w",
+      "id": "wIONP9PKp-w",
+      "sortId": 263,
+      "spotifyURL": "https://open.spotify.com/episode/1cp8XkoplAnZGg8IhPYnN2"
+    },
+    {
+      "title": "The Character Changing Power of the Gospel",
+      "speaker": "Charles Efedua",
+      "scripture": "Philemon 1-7",
+      "date_dirty": "2022-04-02T23:00:00.000Z",
+      "date": "03 April 2022",
+      "youTubeUrl": "https://youtube.com/watch?v=zQlHradioeo",
+      "id": "zQlHradioeo",
+      "sortId": 262,
+      "spotifyURL": "https://open.spotify.com/episode/4ysmbneAOOa1mRe2aWiF9K"
+    },
+    {
+      "title": "A Grace Envied by Prophets and Angels",
+      "speaker": "Israel Silva",
+      "scripture": "1 Peter 1:10-12",
+      "date_dirty": "2022-04-02T23:00:00.000Z",
+      "date": "03 April 2022",
+      "youTubeUrl": "https://youtube.com/watch?v=bKlFAwj5cpU",
+      "id": "bKlFAwj5cpU",
+      "sortId": 261,
+      "spotifyURL": "https://open.spotify.com/episode/5SxTvx7qTqSiaL5ScOBVSw"
+    },
+    {
       "title": "Weak... But Carrying on When Diverted",
       "speaker": "Ryan King",
       "scripture": "2 Corinthians 2:12-17",
@@ -8,7 +63,8 @@
       "date": "27 March 2022",
       "youTubeUrl": "https://youtube.com/watch?v=IsFtNGlONmc",
       "id": "IsFtNGlONmc",
-      "sortId": 260
+      "sortId": 260,
+      "spotifyURL": "https://open.spotify.com/episode/6uNV4G8WZSY5UbBgw5zvHs"
     },
     {
       "title": "Weak... But Comforted Through a Church's Pain",
@@ -461,8 +517,7 @@
       "date": "12 September 2021",
       "youTubeUrl": "https://youtube.com/watch?v=dzsdM30WDhE",
       "id": "dzsdM30WDhE",
-      "sortId": 218,
-      "spotifyURL": "https://open.spotify.com/episode/6ymztxRwYnV3q6WTThSmry"
+      "sortId": 218
     },
     {
       "title": "Why We Go: Personal & Public Evangelism",
@@ -472,8 +527,7 @@
       "date": "12 September 2021",
       "youTubeUrl": "https://youtube.com/watch?v=OrOWmWR8NkM&t=1810s",
       "id": "OrOWmWR8NkM",
-      "sortId": 217,
-      "spotifyURL": "https://open.spotify.com/episode/5atQUPOH3Z8ESibGwzOb0d"
+      "sortId": 217
     },
     {
       "title": "Why We Gather",
@@ -483,8 +537,7 @@
       "date": "05 September 2021",
       "youTubeUrl": "https://youtube.com/watch?v=r8xWW51rbrs&t=528s",
       "id": "r8xWW51rbrs",
-      "sortId": 216,
-      "spotifyURL": "https://open.spotify.com/episode/1hCcfZwJJd5rSQWgeuMAKo"
+      "sortId": 216
     },
     {
       "title": "Lead Us Not Into Temptation",
@@ -494,8 +547,7 @@
       "date": "22 August 2021",
       "youTubeUrl": "https://youtube.com/watch?v=OiG7zG1--Eg&t=970s",
       "id": "OiG7zG1--Eg",
-      "sortId": 215,
-      "spotifyURL": "https://open.spotify.com/episode/2xAYKaWrbSJKASmhqfpeG1"
+      "sortId": 215
     },
     {
       "title": "The End of the Matter",
@@ -2632,7 +2684,7 @@
       "speaker": "Ryan King",
       "scripture": "1 Corinthians 1:28",
       "date_dirty": null,
-      "date": "29 March 2022",
+      "date": "23 April 2022",
       "youTubeUrl": "https://youtube.com/watch?v=5j7E1U90ub4&t=2510s",
       "id": "5j7E1U90ub4",
       "sortId": 1,

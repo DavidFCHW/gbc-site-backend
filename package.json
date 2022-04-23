@@ -7,13 +7,14 @@
     "capitalize-title": "^1.0.0",
     "csv-writer": "^1.6.0",
     "dateformat": "^5.0.2",
+    "express": "^4.17.3",
     "googleapis": "^89.0.0",
     "jsonfile": "^6.1.0",
+    "opn": "^6.0.0",
     "spotify-web-api-node": "^5.0.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node process-sermons"
+    "start": "node process-sermons && node get-auth.js && node google-drive-update"
   },
   "author": "David Omenyo",
   "license": "ISC",
