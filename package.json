@@ -1,5 +1,5 @@
 {
-  "name": "retrieve-gbc-sermons",
+  "name": "retrieve-and-upload-gbc-sermons",
   "version": "1.0.0",
   "description": "A package to retrieve the sermons from the GBC YouTube channel",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "spotify-web-api-node": "^5.0.2"
   },
   "scripts": {
-    "start": "node process-sermons && node get-auth.js && node google-drive-update"
+    "start": "node process-sermons && node get-google-auth.js && node google-drive-update"
   },
   "author": "David Omenyo",
   "license": "ISC",

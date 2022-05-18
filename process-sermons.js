@@ -62,7 +62,7 @@ function createSermonObject(item) {
     scripture: scripture,
     date_dirty: date_dirty,
     date: date,
-    youTubeUrl: youtubeBaseURL + videoId,
+    youtubeUrl: youtubeBaseURL + videoId,
     id: videoId
   }
   console.log(sermon);
@@ -96,7 +96,7 @@ function createLivestreamObject(item) {
     scripture: scripture,
     date_dirty: date_dirty,
     date: date,
-    youTubeUrl: youtubeBaseURL + urlParams,
+    youtubeUrl: youtubeBaseURL + urlParams,
     id: videoId
   }
 

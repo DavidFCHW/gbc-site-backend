@@ -1,6 +1,6 @@
 import {google} from "googleapis";
 import fs from "fs";
-import {authorisation} from "./get-auth.js";
+import {authorisation} from "./get-google-auth.js";
 
 
 /*
@@ -11,26 +11,28 @@ import {authorisation} from "./get-auth.js";
   4. Refactor code (make it clean, readable and efficient. Consider open/close principle) ✅
   5. find out how to take the token code from the redirect url. ✅
   6. Combine or decouple this with the process-sermons script. ✅
-  7. Schedule its execution.
-  8. Find out how to populate the dataset in wix with the file's data.
+  7. Find out how to populate the dataset in wix with the file's data. ✅
+  8. Just found out how to link thumbnails into wix from google drive! Write code to automate this.
+  8. Change credentials from personal to church account
   9. Publish the app.
+  Bonus: Understand promises!
  */
 
 const FILE_DATA = 'file_data.json';
-const CSV_FILE = 'all-data.csv';
+const JSON_FILE = 'all-data.json';
 
 
 let fileExists = false;
 
 //data to make google drive requests for file.
 let fileMetadata = {
-    name: 'all-data.csv',
+    name: 'all-data.json',
     parents: []
 };
 
 let media = {
-    mimeType: 'text/csv',
-    body: fs.createReadStream(CSV_FILE)
+    mimeType: 'application/json',
+    body: fs.createReadStream(JSON_FILE)
 };
 
 
@@ -62,7 +64,7 @@ async function checkFiles() {
     await drive.files.list({
         pageSize: 10,
         fields: 'nextPageToken, files(id, name)',
-        q: "name = 'all-data.csv'"
+        q: "name = 'all-data.json'"
     }).then(res => {
         const files = res.data.files;
         console.log(res);
