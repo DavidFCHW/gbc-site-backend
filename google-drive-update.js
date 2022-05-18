@@ -12,7 +12,7 @@ import {authorisation} from "./get-google-auth.js";
   5. find out how to take the token code from the redirect url. ✅
   6. Combine or decouple this with the process-sermons script. ✅
   7. Find out how to populate the dataset in wix with the file's data. ✅
-  8. Just found out how to link thumbnails into wix from google drive! Write code to automate this.
+  8. Just found out how to link thumbnails into wix from google drive! Write code to automate this. Base url: https://drive.google.com/uc?id=
   8. Change credentials from personal to church account
   9. Publish the app.
   Bonus: Understand promises!
