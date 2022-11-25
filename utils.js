@@ -1,4 +1,6 @@
 import capitalizeTitle from "capitalize-title";
+import {authorisation} from "./get-google-auth.js";
+import {google} from "googleapis";
 
 let months = new Map();
 
@@ -16,6 +18,12 @@ months.set('November', 10);
 months.set('December', 11);
 
 
+const drive = google.drive({
+    version: 'v3',
+    auth: authorisation
+});
+
+
 //Utility functions
 
 /**
@@ -31,6 +39,52 @@ export function createRequestParam(playlistId) {
     }
     return requestParam;
 }
+
+
+export async function getThumbnailId(seriesTitle) {
+    seriesTitle = seriesTitle.toLowerCase();
+    let id;
+    await drive.files.list({
+        pageSize: 30,
+        fields: 'nextPageToken, files(id, name)',
+        // q: "mimeType contains 'image/'"
+        q: "parents = '1mA5sXHDpQFvJysiGS3AhtXzNVNkm46E_'"
+    }).then(res => {
+        let files = res.data.files;
+        // console.log(files);
+        if (files.length) {
+            let file;
+            file = files.find(f => f.name.toLowerCase().includes(seriesTitle));
+            if (file === undefined) {
+                console.log(`Thumbnail for series:  '${seriesTitle}'  not found.`);
+            } else {
+                id = file.id;
+            }
+        }
+    }).catch(e => {
+        console.log(e);
+    });
+    return id;
+}
+
+
+
+/**
+ *
+ * @param description
+ * @returns {string}
+ */
+export function getSeries(description) {
+    if (description.includes("series:")) {
+        let desArray = description.split("\n");
+        let series = desArray.find(line => line.includes("series:")).split(':')[1].trim();
+        series = capitalizeTitle(series);
+        return series;
+    } else {
+        return "default";
+    }
+}
+
 
 /**
  *

@@ -3,21 +3,6 @@ import fs from "fs";
 import {authorisation} from "./get-google-auth.js";
 
 
-/*
- TODO:
-  1. find out how to update/replace an existing file. ✅
-  2. define the scopes of api access. ✅
-  3. find out how to modify folders. ✅
-  4. Refactor code (make it clean, readable and efficient. Consider open/close principle) ✅
-  5. find out how to take the token code from the redirect url. ✅
-  6. Combine or decouple this with the process-sermons script. ✅
-  7. Find out how to populate the dataset in wix with the file's data. ✅
-  8. Just found out how to link thumbnails into wix from google drive! Write code to automate this. Base url: https://drive.google.com/uc?id=
-  8. Change credentials from personal to church account
-  9. Publish the app.
-  Bonus: Understand promises!
- */
-
 const FILE_DATA = 'file_data.json';
 const JSON_FILE = 'all-data.json';
 
@@ -67,7 +52,7 @@ async function checkFiles() {
         q: "name = 'all-data.json'"
     }).then(res => {
         const files = res.data.files;
-        console.log(res);
+        // console.log(res);
         if (files.length) {
             console.log('Files:');
             files.map((file) => {

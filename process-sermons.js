@@ -2,9 +2,17 @@ import { google } from 'googleapis';
 import SpotifyWebApi from "spotify-web-api-node";
 import dateFormat from 'dateformat';
 import capitalizeTitle from 'capitalize-title';
-import {createRequestParam, getDate, getSpeaker, getTimestampParam} from './utils.js'
-import jsf from 'jsonfile';
-import {createObjectCsvWriter} from "csv-writer";
+import {createRequestParam, getDate, getSpeaker, getTimestampParam, getSeries, getThumbnailId} from './utils.js'
+
+/*
+TODO:
+  1. Think about removing the createLivestreamObject, to reduce the amount of sermons processed.
+  2. Add series to all of the YouTube sermon descriptions. ✅
+  3. Investigate issue with not all video data being inserted into all-data.json/.csv ✅
+  4. Think about hosting options for this script (do this when publishing the site).
+  5. Change credentials from personal to church account
+
+ */
 
 
 //API keys and secrets
@@ -12,11 +20,8 @@ const client_id = 'process.env.CLIENT_ID';
 const client_secret = 'process.env.CLIENT_SECRET';
 const api_key = 'process.env.API_KEY';
 
-//file paths of data output
-const all_data_file = 'all-data.json';
-const all_csv_file = 'all-data.csv';
-
 const youtubeBaseURL = 'https://youtube.com/watch?v=';
+const driveImageBaseURL = 'https://drive.google.com/uc?id=';
 
 export var data = {
   sermons: []
@@ -43,7 +48,7 @@ const spotify = new SpotifyWebApi ({
  *
  * @param item
  */
-function createSermonObject(item) {
+async function createSermonObject(item) {
   let titleArray = item.snippet.title.split(' - ');
   let title = capitalizeTitle(titleArray[0].trim());
   let scripture = capitalizeTitle(titleArray[1].trim());
@@ -55,17 +60,24 @@ function createSermonObject(item) {
   date_dirty = date_dirty === null ? item.contentDetails.videoPublishedAt : date_dirty;
   let date = dateFormat(date_dirty, 'dd mmmm yyyy');
   // let date = dateFormat(date_dirty, 'mmmm dd, yyyy hh:mm pm');
+  let series = getSeries(description);
+  let speaker = getSpeaker(description);
 
   let sermon = {
     title: title,
-    speaker: getSpeaker(description),
+    speaker: speaker,
     scripture: scripture,
+    series: series,
     date_dirty: date_dirty,
     date: date,
     youtubeUrl: youtubeBaseURL + videoId,
     id: videoId
   }
-  console.log(sermon);
+  getThumbnailId(series).then(res =>
+      sermon.thumbnail = driveImageBaseURL + res
+  ).catch(err =>
+      console.log(err)
+  );
   data.sermons.push(sermon);
 }
 
@@ -73,7 +85,7 @@ function createSermonObject(item) {
  *
  * @param item
  */
-function createLivestreamObject(item) {
+async function createLivestreamObject(item) {
   let description = item.snippet.description.toLowerCase();
   let lines = description.split('\n');
 
@@ -88,18 +100,23 @@ function createLivestreamObject(item) {
 
   let titleArray = item.snippet.title.split(' - ');
   let date_dirty = getDate(titleArray);
-  let date = dateFormat(getDate(titleArray), 'dd mmmm yyyy');
+  date_dirty = date_dirty === null ? item.contentDetails.videoPublishedAt : date_dirty;
+  let date = dateFormat(date_dirty, 'dd mmmm yyyy');
   // let date = dateFormat(getDate(titleArray), 'mmmm dd, yyyy hh:mm pm');
+  let series = getSeries(description);
+  let speaker = getSpeaker(description);
+
   let sermon = {
     title: title,
-    speaker: getSpeaker(description),
+    speaker: speaker,
+    series: series,
     scripture: scripture,
     date_dirty: date_dirty,
     date: date,
     youtubeUrl: youtubeBaseURL + urlParams,
     id: videoId
   }
-
+  getThumbnailId(series).then(res => sermon.thumbnail = driveImageBaseURL + res).catch(err => console.log(err));
   data.sermons.push(sermon);
 }
 
@@ -113,8 +130,6 @@ async function processData(requestParam) {
   while (requestParam.pageToken || next) {
     await youtube.playlistItems.list(requestParam).then(res => {
       let items = res.data.items;
-      // console.log(items[0]);
-      // console.log(items[0].snippet);
       if (items[0].snippet.title.toLowerCase().includes('service')) {
         items.forEach(createLivestreamObject);
       } else {
@@ -133,26 +148,6 @@ async function processData(requestParam) {
   }
 }
 
-let sermonRequestParam = createRequestParam(sermonPlaylistId);
-let livestreamRequestParam = createRequestParam(livestreamPlaylistId);
-
-
-await processData(sermonRequestParam);
-await processData(livestreamRequestParam);
-
-data.sermons.sort((a, b) => {
-  if (new Date(a.date_dirty).getTime() > new Date(b.date_dirty).getTime()) {
-    return -1;
-  } else if (new Date(a.date_dirty).getTime() < new Date(b.date_dirty).getTime()) {
-    return 1;
-  } else {
-    return 0;
-  }
-});
-
-for (let i = data.sermons.length, j = 0; i > 0; i--, j++) {
-  data.sermons[j].sortId = i;
-}
 
 await spotify.clientCredentialsGrant().then(res => {
   spotify.setAccessToken(res.body.access_token);
@@ -161,12 +156,10 @@ await spotify.clientCredentialsGrant().then(res => {
   let items = res.body.episodes.items;
   items.forEach(item => {
     let title = item.name.split('-', 1)[0].trim();
-    let uri = item.uri;
     let link = item.external_urls.spotify;
 
     let index = data.sermons.findIndex(sermon => sermon.title.toLowerCase() === title.toLowerCase());
     if(index != -1) {
-      // data.sermons[index].spotifyURI = uri;
       data.sermons[index].spotifyURL = link;
     }
   });
@@ -174,25 +167,8 @@ await spotify.clientCredentialsGrant().then(res => {
   console.log(err);
 });
 
-//writing data object to a JSON file.
-jsf.writeFileSync(all_data_file, data, {spaces: 2});
-let csvHeader = [
-  {id: 'title', title: 'Title'},
-  {id: 'speaker', title: 'Speaker'},
-  {id: 'scripture', title: 'Scripture'},
-  {id: 'date_dirty', title: 'Date_Dirty'},
-  {id: 'date', title: 'Date'},
-  {id: 'youTubeUrl', title: 'YouTube URL'},
-  {id: 'id', title: 'ID'},
-  {id: 'sortId', title: 'Sort ID'},
-  {id: 'spotifyURL', title: 'Spotify URL'}
-];
+let sermonRequestParam = createRequestParam(sermonPlaylistId);
+let livestreamRequestParam = createRequestParam(livestreamPlaylistId);
 
-await createObjectCsvWriter({
-  path: all_csv_file,
-  header: csvHeader
-}).writeRecords(data.sermons);
-
-// await csvWriter.writeRecords(data.sermons);
-
-console.log(data.sermons.length);
+await processData(sermonRequestParam);
+await processData(livestreamRequestParam);
