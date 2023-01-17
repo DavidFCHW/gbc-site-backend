@@ -2,7 +2,8 @@ import { google } from 'googleapis';
 import SpotifyWebApi from "spotify-web-api-node";
 import dateFormat from 'dateformat';
 import capitalizeTitle from 'capitalize-title';
-import {createRequestParam, getDate, getSpeaker, getTimestampParam, getSeries, getThumbnailId} from './utils.js'
+import {createRequestParam, getDate, getSpeaker, getTimestampParam, getSeries, getThumbnailId} from './utils.js';
+import * as dotenv from 'dotenv';
 
 /*
 TODO:
@@ -10,15 +11,19 @@ TODO:
   2. Add series to all of the YouTube sermon descriptions. ✅
   3. Investigate issue with not all video data being inserted into all-data.json/.csv ✅
   4. Think about hosting options for this script (do this when publishing the site).
-  5. Change credentials from personal to church account
+  5. think about testing scripts.
+  6. Make sure credentials are not visible when pushing code to remote.
+  7. Use Github Actions for CI/CD
+  8. Change credentials from personal to church account
 
  */
 
 
 //API keys and secrets
-const client_id = 'process.env.CLIENT_ID';
-const client_secret = 'process.env.CLIENT_SECRET';
-const api_key = 'process.env.API_KEY';
+dotenv.config();
+const client_id = process.env.CLIENT_ID;
+const client_secret = process.env.CLIENT_SECRET;
+const api_key = process.env.API_KEY;
 
 const youtubeBaseURL = 'https://youtube.com/watch?v=';
 const driveImageBaseURL = 'https://drive.google.com/uc?id=';
@@ -58,7 +63,7 @@ async function createSermonObject(item) {
   let desArray = description.split('\n');
   let date_dirty = getDate(desArray);
   date_dirty = date_dirty === null ? item.contentDetails.videoPublishedAt : date_dirty;
-  let date = dateFormat(date_dirty, 'dd mmmm yyyy');
+  let date = dateFormat(date_dirty, 'dd mmm yyyy');
   // let date = dateFormat(date_dirty, 'mmmm dd, yyyy hh:mm pm');
   let series = getSeries(description);
   let speaker = getSpeaker(description);
