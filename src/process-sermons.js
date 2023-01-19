@@ -13,7 +13,7 @@ TODO:
   4. Think about hosting options for this script (do this when publishing the site).
   5. think about test scripts.
   6. Make sure credentials are not visible when pushing code to remote. ✅
-  7. Use Github Actions for CI/CD,
+  7. Use Github Actions for CI/CD.
   8. Change credentials from personal to church account.
   9. Change all-data filename to all-sermons.
 

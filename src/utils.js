@@ -1,5 +1,5 @@
 import capitalizeTitle from "capitalize-title";
-import {authorisation} from "./node_modules/get-google-auth.js";
+import {authorisation} from "./get-google-auth.js";
 import {google} from "googleapis";
 
 let months = new Map();

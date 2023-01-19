@@ -15,7 +15,7 @@
     "spotify-web-api-node": "^5.0.2"
   },
   "scripts": {
-    "start": "node finalise-data && node node_modules/get-google-auth.js && node google-drive-update"
+    "start": "node src/finalise-data && node src/get-google-auth.js && node src/google-drive-update"
   },
   "author": "David Omenyo",
   "license": "ISC",

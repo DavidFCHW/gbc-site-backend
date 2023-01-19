@@ -3,8 +3,8 @@ import jsf from 'jsonfile';
 import {createObjectCsvWriter} from "csv-writer";
 
 //file paths of data output
-const all_data_file = 'all-data.json';
-const all_csv_file = 'all-data.csv';
+const all_data_file = 'data/all-data.json';
+const all_csv_file = 'data/all-data.csv';
 
 
 data.sermons.sort((a, b) => {

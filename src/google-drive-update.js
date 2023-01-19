@@ -1,10 +1,10 @@
 import {google} from "googleapis";
 import fs from "fs";
-import {authorisation} from "../node_modules/get-google-auth.js";
+import {authorisation} from "./get-google-auth.js";
 
 
-const FILE_DATA = 'file_data.json';
-const JSON_FILE = 'all-data.json';
+const FILE_DATA = 'data/file_data.json';
+const JSON_FILE = 'data/all-data.json';
 
 
 let fileExists = false;
