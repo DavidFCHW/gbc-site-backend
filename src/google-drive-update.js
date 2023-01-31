@@ -4,14 +4,14 @@ import {authorisation} from "./get-google-auth.js";
 
 
 const FILE_DATA = 'data/file_data.json';
-const JSON_FILE = 'data/all-data.json';
+const JSON_FILE = 'data/all-sermons.json';
 
 
 let fileExists = false;
 
 //data to make google drive requests for file.
 let fileMetadata = {
-    name: 'all-data.json',
+    name: 'all-sermons.json',
     parents: []
 };
 
@@ -49,7 +49,7 @@ async function checkFiles() {
     await drive.files.list({
         pageSize: 10,
         fields: 'nextPageToken, files(id, name)',
-        q: "name = 'all-data.json'"
+        q: "name = 'all-sermons.json'"
     }).then(res => {
         const files = res.data.files;
         // console.log(res);

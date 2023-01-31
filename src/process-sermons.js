@@ -9,7 +9,7 @@ import * as dotenv from 'dotenv';
 TODO:
   1. Think about removing the createLivestreamObject, to reduce the amount of sermons processed.
   2. Add series to all of the YouTube sermon descriptions. ✅
-  3. Investigate issue with not all video data being inserted into all-data.json/.csv ✅
+  3. Investigate issue with not all video data being inserted into all-sermons.json/.csv ✅
   4. Think about hosting options for this script (do this when publishing the site).
   5. think about test scripts.
   6. Make sure credentials are not visible when pushing code to remote. ✅
