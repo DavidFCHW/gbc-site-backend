@@ -1,6 +1,18 @@
 {
   "sermons": [
     {
+      "title": "Strength in Service",
+      "speaker": "Charles Efedua",
+      "scripture": "Romans 15:1-7",
+      "series": "default",
+      "date_dirty": "2023-01-22T00:00:00.000Z",
+      "date": "22 Jan 2023",
+      "youtubeUrl": "https://youtube.com/watch?v=r1phiafI29o",
+      "id": "r1phiafI29o",
+      "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
+      "sortId": 327
+    },
+    {
       "title": "Jesus Our Great High Priest",
       "speaker": "Adrian Amo-Mensah",
       "scripture": "Hebrews 4:14-16",
@@ -10,7 +22,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=M6ovazoe4xs",
       "id": "M6ovazoe4xs",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 321
+      "sortId": 326
     },
     {
       "title": "Insist on the Gospel",
@@ -22,7 +34,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=AmMatubE8As",
       "id": "AmMatubE8As",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 320
+      "sortId": 325
     },
     {
       "title": "Weak... But Strengthened by God",
@@ -34,7 +46,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=Rs3qFave10U",
       "id": "Rs3qFave10U",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 319
+      "sortId": 324
     },
     {
       "title": "Here Was a Man",
@@ -46,7 +58,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=p7Py4zLqYB4",
       "id": "p7Py4zLqYB4",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 318
+      "sortId": 323
     },
     {
       "title": "We Believe: The Holy Spirit",
@@ -58,7 +70,31 @@
       "youtubeUrl": "https://youtube.com/watch?v=rE7nPSS2zn0",
       "id": "rE7nPSS2zn0",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 317
+      "sortId": 322
+    },
+    {
+      "title": "Weak... But Confident: Successful Failure",
+      "speaker": "Ryan King",
+      "scripture": "2 Corinthians 13:1-10",
+      "series": "Strong Weakness",
+      "date_dirty": "2022-12-18T00:00:00.000Z",
+      "date": "18 Dec 2022",
+      "youtubeUrl": "https://youtube.com/watch?v=WRUaER-oBAk",
+      "id": "WRUaER-oBAk",
+      "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
+      "sortId": 321
+    },
+    {
+      "title": "Weak... But Confident: Burdensome Joy",
+      "speaker": "Ryan King",
+      "scripture": "2 Corinthians 12:11-21",
+      "series": "Strong Weakness",
+      "date_dirty": "2022-12-11T00:00:00.000Z",
+      "date": "11 Dec 2022",
+      "youtubeUrl": "https://youtube.com/watch?v=9uKfWHhbnJY",
+      "id": "9uKfWHhbnJY",
+      "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
+      "sortId": 320
     },
     {
       "title": "We Believe: The Ascension",
@@ -70,7 +106,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=tSCtvls7tAU",
       "id": "tSCtvls7tAU",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 316
+      "sortId": 319
     },
     {
       "title": "What is a Disciple?",
@@ -82,7 +118,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=UdJR7hLPOZ8",
       "id": "UdJR7hLPOZ8",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 315
+      "sortId": 318
     },
     {
       "title": "Weak but Confident: Strong Weakness",
@@ -94,7 +130,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=olN59bKIxIM",
       "id": "olN59bKIxIM",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 314
+      "sortId": 317
     },
     {
       "title": "The Blessing of Older Saints",
@@ -106,7 +142,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=xL_dupM6KEA",
       "id": "xL_dupM6KEA",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 313
+      "sortId": 316
     },
     {
       "title": "Living in Confident Fear",
@@ -118,7 +154,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=gYYl9e2URqA",
       "id": "gYYl9e2URqA",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 312
+      "sortId": 315
     },
     {
       "title": "We Believe: The Cross and Resurrection",
@@ -130,7 +166,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=cBYv1Y3ab-g",
       "id": "cBYv1Y3ab-g",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 311
+      "sortId": 314
     },
     {
       "title": "Our Unity in Christ",
@@ -142,7 +178,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=6KXCtCd8DOM",
       "id": "6KXCtCd8DOM",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 310
+      "sortId": 313
     },
     {
       "title": "We Believe: Doctrine of the Incarnation",
@@ -154,7 +190,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=1B4oHOxHDpE",
       "id": "1B4oHOxHDpE",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 309
+      "sortId": 312
     },
     {
       "title": "Weak... But Confident: Wise Foolishness",
@@ -166,7 +202,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=J1xZBfG_s_8",
       "id": "J1xZBfG_s_8",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 308
+      "sortId": 311
     },
     {
       "title": "Set Apart for Me: Why We Do Not Lose, but Send",
@@ -178,7 +214,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=XtUirvLrm1s",
       "id": "XtUirvLrm1s",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 307
+      "sortId": 310
     },
     {
       "title": "We Believe: The Doctrine of Election",
@@ -190,7 +226,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=DuLFpaMNt2U",
       "id": "DuLFpaMNt2U",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 306
+      "sortId": 309
     },
     {
       "title": "Weak... But Confident: Divine Jealousy",
@@ -202,7 +238,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=UfXf4tdgKBQ",
       "id": "UfXf4tdgKBQ",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 305
+      "sortId": 308
     },
     {
       "title": "We Believe: Total Inability",
@@ -214,7 +250,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=2FGk_dzxKNE",
       "id": "2FGk_dzxKNE",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 304
+      "sortId": 307
     },
     {
       "title": "Weak... But Confident: Humble Boasting",
@@ -226,7 +262,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=-i79a_i14rQ",
       "id": "-i79a_i14rQ",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 303
+      "sortId": 306
     },
     {
       "title": "Weak... But Coming Together: Gentle Boldness",
@@ -238,7 +274,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=iXJtmkKm2PE",
       "id": "iXJtmkKm2PE",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 302
+      "sortId": 305
     },
     {
       "title": "Why We Baptise",
@@ -250,7 +286,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=C9wcdwkzzPA",
       "id": "C9wcdwkzzPA",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 301
+      "sortId": 304
     },
     {
       "title": "We Believe: The Doctrine of Man",
@@ -262,7 +298,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=uAQ4mLoNUnc",
       "id": "uAQ4mLoNUnc",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 300
+      "sortId": 303
     },
     {
       "title": "Weak... But Coming Together: To Give Part 2",
@@ -274,7 +310,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=3baZX1jQZHA",
       "id": "3baZX1jQZHA",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 299
+      "sortId": 302
     },
     {
       "title": "We Believe: The Doctrine of Scripture",
@@ -286,7 +322,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=Ulsk4cKo74s",
       "id": "Ulsk4cKo74s",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 298
+      "sortId": 301
     },
     {
       "title": "The Queen is Dead, Long Live the King",
@@ -298,7 +334,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=ks8KoVJgwDQ",
       "id": "ks8KoVJgwDQ",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 297
+      "sortId": 300
     },
     {
       "title": "We Believe: The One True and Living God",
@@ -310,7 +346,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=pI1EvlM7b9o",
       "id": "pI1EvlM7b9o",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 296
+      "sortId": 299
     },
     {
       "title": "Weak... But Coming Together: To Give Part 1",
@@ -322,7 +358,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=iir8zBzS8A0",
       "id": "iir8zBzS8A0",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 295
+      "sortId": 298
     },
     {
       "title": "Weak... But Coming Together: What is Achieved by Coming Together?",
@@ -334,7 +370,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=cWqNuqCmkUI",
       "id": "cWqNuqCmkUI",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 294
+      "sortId": 297
     },
     {
       "title": "We Believe: Introduction",
@@ -346,7 +382,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=Lt60y_vCR9w",
       "id": "Lt60y_vCR9w",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 293
+      "sortId": 296
     },
     {
       "title": "Weak... But Coming Together: Restrictions to Coming Together",
@@ -358,7 +394,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=XdsiWThDDQ8",
       "id": "XdsiWThDDQ8",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 292
+      "sortId": 295
     },
     {
       "title": "Weak... But Coming Together: The Ministry of Coming Together",
@@ -370,7 +406,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=rePYjUhkie0",
       "id": "rePYjUhkie0",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 291
+      "sortId": 294
     },
     {
       "title": "Weak... But Coming Together: The Message of Coming Together",
@@ -382,7 +418,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=SmlDbTwdBKk",
       "id": "SmlDbTwdBKk",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 290
+      "sortId": 293
     },
     {
       "title": "Praise God",
@@ -394,7 +430,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=XaBMlybuEGw",
       "id": "XaBMlybuEGw",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 289
+      "sortId": 292
     },
     {
       "title": "A Reaffirmation of Love",
@@ -406,7 +442,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=93PrhW3QPW8",
       "id": "93PrhW3QPW8",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 288
+      "sortId": 291
     },
     {
       "title": "Pray to the Lord of the Harvest",
@@ -418,7 +454,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=21yy6YaUHP8",
       "id": "21yy6YaUHP8",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 287
+      "sortId": 290
     },
     {
       "title": "Prayer and Repentance",
@@ -430,7 +466,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=g1dB6WQ3PjM",
       "id": "g1dB6WQ3PjM",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 286
+      "sortId": 289
     },
     {
       "title": "Praying a Life Pleasing Unto God",
@@ -442,7 +478,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=MlZJnX0Q5Ss",
       "id": "MlZJnX0Q5Ss",
       "thumbnail": "https://drive.google.com/uc?id=1WrbOhLc6kIQuWGwQQKANPVW83jhJd-wv",
-      "sortId": 285
+      "sortId": 288
     },
     {
       "title": "The Fear of Man and the Freedom of Justification",
@@ -454,7 +490,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=hQfnCo0AIzA",
       "id": "hQfnCo0AIzA",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 284
+      "sortId": 287
     },
     {
       "title": "Grow in the Midst of Weeds",
@@ -466,7 +502,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=cO4yJfL6rOw",
       "id": "cO4yJfL6rOw",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 283
+      "sortId": 286
     },
     {
       "title": "When Praise Demands a Sacrifice",
@@ -478,7 +514,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=pLmEqriVsvQ",
       "id": "pLmEqriVsvQ",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 282
+      "sortId": 285
     },
     {
       "title": "Goodbye Instructions",
@@ -490,7 +526,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=HEaCtsGJ1NM",
       "id": "HEaCtsGJ1NM",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 281
+      "sortId": 284
     },
     {
       "title": "Worship in the Weeping",
@@ -502,7 +538,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=VCn88CzAT4U",
       "id": "VCn88CzAT4U",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 280
+      "sortId": 283
     },
     {
       "title": "Weak... But Carrying on Through Death",
@@ -514,7 +550,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=7LYwQyJp3Mk",
       "id": "7LYwQyJp3Mk",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 279
+      "sortId": 282
     },
     {
       "title": "God Has His Hand on You",
@@ -526,7 +562,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=vKTTzaDFhZw",
       "id": "vKTTzaDFhZw",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 278
+      "sortId": 281
     },
     {
       "title": "Meditating on God's Law Enriches Our Prayer Life",
@@ -538,7 +574,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=gFcCbcjkAxQ",
       "id": "gFcCbcjkAxQ",
       "thumbnail": "https://drive.google.com/uc?id=undefined",
-      "sortId": 277
+      "sortId": 280
     },
     {
       "title": "Take the Lowest Seat",
@@ -550,7 +586,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=4gk-fqq9EuU",
       "id": "4gk-fqq9EuU",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 276
+      "sortId": 279
     },
     {
       "title": "The Outpouring of the Holy Spirit",
@@ -562,7 +598,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=dNs1qSZrLu0",
       "id": "dNs1qSZrLu0",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 275
+      "sortId": 278
     },
     {
       "title": "Where Are You Standing?",
@@ -574,7 +610,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=loWK58072G8",
       "id": "loWK58072G8",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 274
+      "sortId": 277
     },
     {
       "title": "With Shameless Audacity",
@@ -586,7 +622,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=tatlTCGjmuw",
       "id": "tatlTCGjmuw",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 273
+      "sortId": 276
     },
     {
       "title": "Weak... But Carrying on Through Damage",
@@ -598,7 +634,31 @@
       "youtubeUrl": "https://youtube.com/watch?v=th6dcgldb9I",
       "id": "th6dcgldb9I",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 272
+      "sortId": 275
+    },
+    {
+      "title": "So What is the Law Good For?",
+      "speaker": "Ryan King",
+      "scripture": "Galatians 3",
+      "series": "default",
+      "date_dirty": "2022-05-14T23:00:00.000Z",
+      "date": "15 May 2022",
+      "youtubeUrl": "https://youtube.com/watch?v=MddJYrJTW40",
+      "id": "MddJYrJTW40",
+      "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
+      "sortId": 274
+    },
+    {
+      "title": "Weak... But Carrying on Through Darkness Pt 2",
+      "speaker": "Ryan King",
+      "scripture": "2 Corinthians 4:1-6",
+      "series": "Strong Weakness",
+      "date_dirty": "2022-05-14T23:00:00.000Z",
+      "date": "15 May 2022",
+      "youtubeUrl": "https://youtube.com/watch?v=KMj7KNk2-wo",
+      "id": "KMj7KNk2-wo",
+      "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
+      "sortId": 273
     },
     {
       "title": "What Does It Look Like To \"Walk Worthy\"?",
@@ -610,7 +670,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=SXryiJa00ZU",
       "id": "SXryiJa00ZU",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 271
+      "sortId": 272
     },
     {
       "title": "Weak... But Carrying on Through Darkness Part 1",
@@ -622,7 +682,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=HSAWv81ZbyQ",
       "id": "HSAWv81ZbyQ",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 270
+      "sortId": 271
     },
     {
       "title": "Persevering in Trials and Tribulations",
@@ -634,7 +694,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=xpNnk35da6E",
       "id": "xpNnk35da6E",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 269
+      "sortId": 270
     },
     {
       "title": "Weak... But Carrying on When Doubted",
@@ -646,7 +706,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=5HXiCyOEkBk",
       "id": "5HXiCyOEkBk",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 268
+      "sortId": 269
     },
     {
       "title": "Make Your Mind Instruct Your Heart",
@@ -658,7 +718,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=UHC8A8272q0",
       "id": "UHC8A8272q0",
       "thumbnail": "https://drive.google.com/uc?id=1VmkdUMS_GlVOHYhwv_pax08c3UHqf6AL",
-      "sortId": 267
+      "sortId": 268
     },
     {
       "title": "The Marks of a True Friend",
@@ -670,7 +730,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=QOvzB-lW14s",
       "id": "QOvzB-lW14s",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 266
+      "sortId": 267
     },
     {
       "title": "Christ is Risen",
@@ -682,7 +742,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=x1xkPdBf0I0",
       "id": "x1xkPdBf0I0",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 265
+      "sortId": 266
     },
     {
       "title": "Small Groups and the Church's Heartbeat",
@@ -694,7 +754,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=GgoRAep3qrE",
       "id": "GgoRAep3qrE",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 264
+      "sortId": 265
     },
     {
       "title": "Will You Receive Jesus?",
@@ -706,7 +766,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=wIONP9PKp-w",
       "id": "wIONP9PKp-w",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 263
+      "sortId": 264
     },
     {
       "title": "The Character Changing Power of the Gospel",
@@ -718,7 +778,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=zQlHradioeo",
       "id": "zQlHradioeo",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 262
+      "sortId": 263
     },
     {
       "title": "A Grace Envied by Prophets and Angels",
@@ -730,7 +790,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=bKlFAwj5cpU",
       "id": "bKlFAwj5cpU",
       "thumbnail": "https://drive.google.com/uc?id=1VmkdUMS_GlVOHYhwv_pax08c3UHqf6AL",
-      "sortId": 261
+      "sortId": 262
     },
     {
       "title": "Weak... But Carrying on When Diverted",
@@ -742,7 +802,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=IsFtNGlONmc",
       "id": "IsFtNGlONmc",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 260
+      "sortId": 261
     },
     {
       "title": "Weak... But Comforted Through a Church's Pain",
@@ -754,7 +814,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=XJd8WqFTdqo",
       "id": "XJd8WqFTdqo",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 259
+      "sortId": 260
     },
     {
       "title": "Who Am I? Simon Peter and Our Questions of Identity",
@@ -766,7 +826,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=4fAo5rRdmKo",
       "id": "4fAo5rRdmKo",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 258
+      "sortId": 259
     },
     {
       "title": "Weak... But Comforted Through a Leader’S Pain",
@@ -778,7 +838,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=F5h2ClkUeIU",
       "id": "F5h2ClkUeIU",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 257
+      "sortId": 258
     },
     {
       "title": "Weak...but Comforted by God's Promises",
@@ -790,7 +850,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=8h1cHL9gcaY",
       "id": "8h1cHL9gcaY",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 256
+      "sortId": 257
     },
     {
       "title": "A Gospel Story",
@@ -802,7 +862,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=QuA3SRidXSk",
       "id": "QuA3SRidXSk",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 255
+      "sortId": 256
     },
     {
       "title": "Faint, Yet Pursuing",
@@ -814,7 +874,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=sA8pUEMKHDA",
       "id": "sA8pUEMKHDA",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 254
+      "sortId": 255
     },
     {
       "title": "Weak... But Comforted by God's Power",
@@ -826,7 +886,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=cirfP1q-Ihc",
       "id": "cirfP1q-Ihc",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
-      "sortId": 253
+      "sortId": 254
     },
     {
       "title": "One Night in Corinth",
@@ -838,7 +898,7 @@
       "youtubeUrl": "https://youtube.com/watch?v=GHSUwH_fjew",
       "id": "GHSUwH_fjew",
       "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
-      "sortId": 252
+      "sortId": 253
     },
     {
       "title": "Strong Weakness: God's Power in Our Frailty and Foolishness",
@@ -850,6 +910,18 @@
       "youtubeUrl": "https://youtube.com/watch?v=DrrK3sjbCzk",
       "id": "DrrK3sjbCzk",
       "thumbnail": "https://drive.google.com/uc?id=1LBopISukGAeNV6nn2KGxtDKRfn2iNWoL",
+      "sortId": 252
+    },
+    {
+      "title": "Reading of 2 Corinthians",
+      "speaker": "Ryan King",
+      "scripture": "2 Corinthians",
+      "series": "default",
+      "date_dirty": "2022-02-06T00:00:00.000Z",
+      "date": "06 Feb 2022",
+      "youtubeUrl": "https://youtube.com/watch?v=gSk7CZ48sWM",
+      "id": "gSk7CZ48sWM",
+      "thumbnail": "https://drive.google.com/uc?id=1gXWSMSJU3cUYqV0NBzapSYDXDW_jXA2d",
       "sortId": 251
     },
     {
@@ -937,10 +1009,10 @@
       "sortId": 244
     },
     {
-      "title": "A Future Inheritance and a Present Hope",
+      "title": "Title: A Future Inheritance and a Present Hope",
       "speaker": "Israel Silva",
       "series": "default",
-      "scripture": "1 Peter 1:3-4",
+      "scripture": "Scripture: 1 Peter 1:3-4",
       "date_dirty": "2022-01-09T00:00:00.000Z",
       "date": "09 January 2022",
       "youtubeUrl": "https://youtube.com/watch?v=x03z8fogJuk&t=1825s",
@@ -948,10 +1020,10 @@
       "sortId": 243
     },
     {
-      "title": "Yesterday",
+      "title": "Title: Yesterday",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Luke 2:8-20",
+      "scripture": "Scripture: Luke 2:8-20",
       "date_dirty": "2021-12-26T00:00:00.000Z",
       "date": "26 December 2021",
       "youtubeUrl": "https://youtube.com/watch?v=51KzK_1QaSQ&t=1642s",
@@ -959,10 +1031,10 @@
       "sortId": 242
     },
     {
-      "title": "Things That Are Not",
+      "title": "Title: Things That Are Not",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "1 Corinthians 1:28",
+      "scripture": "Scripture: 1 Corinthians 1:28",
       "date_dirty": "2021-12-25T23:56:40Z",
       "date": "25 December 2021",
       "youtubeUrl": "https://youtube.com/watch?v=5j7E1U90ub4&t=2510s",
@@ -982,10 +1054,10 @@
       "sortId": 240
     },
     {
-      "title": "Expecting - Good News of Great Joy: Jesus",
+      "title": "Title: Expecting - Good News of Great Joy: Jesus",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "Matthew 1:18-25",
+      "scripture": "Scripture: Matthew 1:18-25",
       "date_dirty": "2021-12-19T00:00:00.000Z",
       "date": "19 December 2021",
       "youtubeUrl": "https://youtube.com/watch?v=4nKSjeaCxE0&t=1833s",
@@ -1005,10 +1077,10 @@
       "sortId": 238
     },
     {
-      "title": "Expecting - Good News of Great Joy: John",
+      "title": "Title: Expecting - Good News of Great Joy: John",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "Luke 1:5-29",
+      "scripture": "Scripture: Luke 1:5-29",
       "date_dirty": "2021-12-12T00:00:00.000Z",
       "date": "12 December 2021",
       "youtubeUrl": "https://youtube.com/watch?v=RHmL7zUBv04&t=1942s",
@@ -1028,10 +1100,10 @@
       "sortId": 236
     },
     {
-      "title": "Expecting - Good News of Great Joy: Solomon",
+      "title": "Title: Expecting - Good News of Great Joy: Solomon",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "1 Chronicles 22:1-10",
+      "scripture": "Scripture: 1 Chronicles 22:1-10",
       "date_dirty": "2021-12-05T00:00:00.000Z",
       "date": "05 December 2021",
       "youtubeUrl": "https://youtube.com/watch?v=BpFfWtqQCmY&t=2040s",
@@ -1039,10 +1111,10 @@
       "sortId": 235
     },
     {
-      "title": "Expecting - Good News of Great Joy: Samson",
+      "title": "Title: Expecting - Good News of Great Joy: Samson",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "Judges 13:1-5",
+      "scripture": "Scripture: Judges 13:1-5",
       "date_dirty": "2021-11-28T00:00:00.000Z",
       "date": "28 November 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Ktni8KqVc-M&t=2288s",
@@ -1062,10 +1134,10 @@
       "sortId": 233
     },
     {
-      "title": "Chosen to Obey Jesus",
+      "title": "Title: Chosen to Obey Jesus",
       "speaker": "Israel Silva",
       "series": "default",
-      "scripture": "1 Peter 1:1-2",
+      "scripture": "Scripture: 1 Peter 1:1-2",
       "date_dirty": "2021-11-21T00:00:00.000Z",
       "date": "21 November 2021",
       "youtubeUrl": "https://youtube.com/watch?v=RClGbmOv8-k&t=2057s",
@@ -1085,10 +1157,10 @@
       "sortId": 231
     },
     {
-      "title": "Expecting - Good News of Great Joy: Isaac",
+      "title": "Title: Expecting - Good News of Great Joy: Isaac",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "Genesis 17:15-21",
+      "scripture": "Scripture: Genesis 17:15-21",
       "date_dirty": "2021-11-14T00:00:00.000Z",
       "date": "14 November 2021",
       "youtubeUrl": "https://youtube.com/watch?v=vM_YnxmjKSs&t=1748s",
@@ -1108,10 +1180,10 @@
       "sortId": 229
     },
     {
-      "title": "Expecting - Good News of Great Joy: Ishmael",
+      "title": "Title: Expecting - Good News of Great Joy: Ishmael",
       "speaker": "Ryan King",
       "series": "Expecting - Good News of Great Joy",
-      "scripture": "Genesis 16",
+      "scripture": "Scripture: Genesis 16",
       "date_dirty": "2021-11-07T00:00:00.000Z",
       "date": "07 November 2021",
       "youtubeUrl": "https://youtube.com/watch?v=dcaX0F7arXo&t=2011s",
@@ -1119,10 +1191,10 @@
       "sortId": 228
     },
     {
-      "title": "Beliefs of a Reformational Church: Glory to God",
+      "title": "Title: Beliefs of a Reformational Church: Glory to God",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Ephesians 3:14-21",
+      "scripture": "Scripture: Ephesians 3:14-21",
       "date_dirty": "2021-10-30T23:00:00.000Z",
       "date": "31 October 2021",
       "youtubeUrl": "https://youtube.com/watch?v=TtsvhO-hcfY&t=1215s",
@@ -1130,10 +1202,10 @@
       "sortId": 227
     },
     {
-      "title": "Beliefs of a Reformational Church: Christ",
+      "title": "Title: Beliefs of a Reformational Church: Christ",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Hebrews 10:1-10",
+      "scripture": "Scripture: Hebrews 10:1-10",
       "date_dirty": "2021-10-23T23:00:00.000Z",
       "date": "24 October 2021",
       "youtubeUrl": "https://youtube.com/watch?v=2-Xi_2IovV4&t=1605s",
@@ -1153,10 +1225,10 @@
       "sortId": 225
     },
     {
-      "title": "Beliefs of a Reformational Church: Grace",
+      "title": "Title: Beliefs of a Reformational Church: Grace",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Ephesians 2:8-10",
+      "scripture": "Scripture: Ephesians 2:8-10",
       "date_dirty": "2021-10-16T23:00:00.000Z",
       "date": "17 October 2021",
       "youtubeUrl": "https://youtube.com/watch?v=WxkaWs3jwXI&t=1750s",
@@ -1176,10 +1248,10 @@
       "sortId": 223
     },
     {
-      "title": "Beliefs of a Reformational Church: Faith",
+      "title": "Title: Beliefs of a Reformational Church: Faith",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Galatians 2:15-17",
+      "scripture": "Scripture: Galatians 2:15-17",
       "date_dirty": "2021-10-09T23:00:00.000Z",
       "date": "10 October 2021",
       "youtubeUrl": "https://youtube.com/watch?v=LVWZpqyTPGE&t=1950s",
@@ -1187,10 +1259,10 @@
       "sortId": 222
     },
     {
-      "title": "Beliefs of a Reformational Church: Scripture",
+      "title": "Title: Beliefs of a Reformational Church: Scripture",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "2 Timothy 3:15-17",
+      "scripture": "Scripture: 2 Timothy 3:15-17",
       "date_dirty": "2021-10-02T23:00:00.000Z",
       "date": "03 October 2021",
       "youtubeUrl": "https://youtube.com/watch?v=NyAXnn6aTCE&t=1315s",
@@ -1198,10 +1270,10 @@
       "sortId": 221
     },
     {
-      "title": "Why We Go: Social Action",
+      "title": "Title: Why We Go: Social Action",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "James 2:14-26",
+      "scripture": "Scripture: James 2:14-26",
       "date_dirty": "2021-09-25T23:00:00.000Z",
       "date": "26 September 2021",
       "youtubeUrl": "https://youtube.com/watch?v=rXyQl9xeIrA&t=2156s",
@@ -1221,10 +1293,10 @@
       "sortId": 219
     },
     {
-      "title": "Dead in Sin, Made Alive in Christ",
+      "title": "Title: Dead in Sin, Made Alive in Christ",
       "speaker": "Israel Silva",
       "series": "default",
-      "scripture": "Ephesians 2:1-6",
+      "scripture": "Scripture: Ephesians 2:1-6",
       "date_dirty": "2021-09-18T23:00:00.000Z",
       "date": "19 September 2021",
       "youtubeUrl": "https://youtube.com/watch?v=EXPaiKL09mc&t=1800s",
@@ -1244,10 +1316,10 @@
       "sortId": 217
     },
     {
-      "title": "Why We Go: Personal & Public Evangelism",
+      "title": "Title: Why We Go: Personal & Public Evangelism",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "John 4:1-42",
+      "scripture": "Scripture: John 4:1-42",
       "date_dirty": "2021-09-11T23:00:00.000Z",
       "date": "12 September 2021",
       "youtubeUrl": "https://youtube.com/watch?v=OrOWmWR8NkM&t=1810s",
@@ -1255,10 +1327,10 @@
       "sortId": 216
     },
     {
-      "title": "Why We Gather",
+      "title": "Title: Why We Gather",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Hebrews 10:19-25",
+      "scripture": "Scripture: Hebrews 10:19-25",
       "date_dirty": "2021-09-04T23:00:00.000Z",
       "date": "05 September 2021",
       "youtubeUrl": "https://youtube.com/watch?v=r8xWW51rbrs&t=528s",
@@ -1266,10 +1338,10 @@
       "sortId": 215
     },
     {
-      "title": "Lead Us Not Into Temptation",
+      "title": "Title: Lead Us Not Into Temptation",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:13",
+      "scripture": "Scripture: Matthew 6:13",
       "date_dirty": "2021-08-21T23:00:00.000Z",
       "date": "22 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=OiG7zG1--Eg&t=970s",
@@ -1277,10 +1349,10 @@
       "sortId": 214
     },
     {
-      "title": "The End of the Matter",
+      "title": "Title: The End of the Matter",
       "speaker": "Adrian Yeboah",
       "series": "default",
-      "scripture": "Ecclesiastes 12:9-14",
+      "scripture": "Scripture: Ecclesiastes 12:9-14",
       "date_dirty": "2021-08-21T23:00:00.000Z",
       "date": "22 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=OVImVU3psXY&t=1970s",
@@ -1288,10 +1360,10 @@
       "sortId": 213
     },
     {
-      "title": "Growing in Maturity",
+      "title": "Title: Growing in Maturity",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Ephesians 4:1-16",
+      "scripture": "Scripture: Ephesians 4:1-16",
       "date_dirty": "2021-08-14T23:00:00.000Z",
       "date": "15 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=VdqJwEhrKLU&t=982s",
@@ -1299,10 +1371,10 @@
       "sortId": 212
     },
     {
-      "title": "Restless Cycles",
+      "title": "Title: Restless Cycles",
       "speaker": "Adrian Yeboah",
       "series": "default",
-      "scripture": "Ecclesiastes 1:1-11",
+      "scripture": "Scripture: Ecclesiastes 1:1-11",
       "date_dirty": "2021-08-14T23:00:00.000Z",
       "date": "15 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Pd9y1fCYU90&t=2013s",
@@ -1310,10 +1382,10 @@
       "sortId": 211
     },
     {
-      "title": "Does the Gospel Need a Private Jet?",
+      "title": "Title: Does the Gospel Need a Private Jet?",
       "speaker": "Wale Akinrogunde",
       "series": "default",
-      "scripture": "Acts 2:41-47",
+      "scripture": "Scripture: Acts 2:41-47",
       "date_dirty": "2021-08-07T23:00:00.000Z",
       "date": "08 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=adDL7fKXJPc&t=1905s",
@@ -1321,10 +1393,10 @@
       "sortId": 210
     },
     {
-      "title": "Why We Fellowship",
+      "title": "Title: Why We Fellowship",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Acts 2:42-47",
+      "scripture": "Scripture: Acts 2:42-47",
       "date_dirty": "2021-08-07T23:00:00.000Z",
       "date": "08 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=meXG1FYroKI&t=1367s",
@@ -1332,10 +1404,10 @@
       "sortId": 209
     },
     {
-      "title": "Why We Take the Lord's Supper",
+      "title": "Title: Why We Take the Lord's Supper",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "1 Corinthians 11:17-34",
+      "scripture": "Scripture: 1 Corinthians 11:17-34",
       "date_dirty": "2021-07-31T23:00:00.000Z",
       "date": "01 August 2021",
       "youtubeUrl": "https://youtube.com/watch?v=psTP9AUG1tQ&t=2095s",
@@ -1343,10 +1415,10 @@
       "sortId": 208
     },
     {
-      "title": "Forgiven and Forgiving",
+      "title": "Title: Forgiven and Forgiving",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:12",
+      "scripture": "Scripture: Matthew 6:12",
       "date_dirty": "2021-07-24T23:00:00.000Z",
       "date": "25 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=syTgJrGCKMk&t=1336s",
@@ -1354,10 +1426,10 @@
       "sortId": 207
     },
     {
-      "title": "Why We Baptise",
+      "title": "Title: Why We Baptise",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Acts 2:38",
+      "scripture": "Scripture: Acts 2:38",
       "date_dirty": "2021-07-24T23:00:00.000Z",
       "date": "25 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=UjSEe-GRHBA&t=2015s",
@@ -1365,10 +1437,10 @@
       "sortId": 206
     },
     {
-      "title": "Praying in Your Daily Needs",
+      "title": "Title: Praying in Your Daily Needs",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:11",
+      "scripture": "Scripture: Matthew 6:11",
       "date_dirty": "2021-07-17T23:00:00.000Z",
       "date": "18 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=0t4QT5HTeqk&t=1295s",
@@ -1376,10 +1448,10 @@
       "sortId": 205
     },
     {
-      "title": "Why We Preach",
+      "title": "Title: Why We Preach",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Ezekiel 37:1-14",
+      "scripture": "Scripture: Ezekiel 37:1-14",
       "date_dirty": "2021-07-17T23:00:00.000Z",
       "date": "18 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=dpIl81EOdGY&t=1779s",
@@ -1387,10 +1459,10 @@
       "sortId": 204
     },
     {
-      "title": "God's Will for Our Lives",
+      "title": "Title: God's Will for Our Lives",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:10",
+      "scripture": "Scripture: Matthew 6:10",
       "date_dirty": "2021-07-10T23:00:00.000Z",
       "date": "11 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=XDRsbuPb7Cg&t=950s",
@@ -1398,10 +1470,10 @@
       "sortId": 203
     },
     {
-      "title": "Why We Pray",
+      "title": "Title: Why We Pray",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Nehemiah 1:4-11",
+      "scripture": "Scripture: Nehemiah 1:4-11",
       "date_dirty": "2021-07-10T23:00:00.000Z",
       "date": "11 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=C8E5Z6M4xcE&t=1896s",
@@ -1409,10 +1481,10 @@
       "sortId": 202
     },
     {
-      "title": "True Catholic Christianity vs Roman Catholicism",
+      "title": "Title: True Catholic Christianity vs Roman Catholicism",
       "speaker": "Regan King",
       "series": "default",
-      "scripture": "Various Scriptures",
+      "scripture": "Scripture: Various Scriptures",
       "date_dirty": "2021-07-03T23:00:00.000Z",
       "date": "04 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=jpGqyr6PeFI&t=734s",
@@ -1420,10 +1492,10 @@
       "sortId": 201
     },
     {
-      "title": "Why We Sing",
+      "title": "Title: Why We Sing",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Ephesians 5:1-21 & Colossians 3:1-17",
+      "scripture": "Scripture: Ephesians 5:1-21 & Colossians 3:1-17",
       "date_dirty": "2021-07-03T23:00:00.000Z",
       "date": "04 July 2021",
       "youtubeUrl": "https://youtube.com/watch?v=mHWYYsmQqQo&t=1710s",
@@ -1431,10 +1503,10 @@
       "sortId": 200
     },
     {
-      "title": "What's the Deal With Deacons? - Reward",
+      "title": "Title: What's the Deal With Deacons? - Reward",
       "speaker": "Ryan King",
       "series": "What's the Deal With Deacons?",
-      "scripture": "1 Timothy 3:13",
+      "scripture": "Scripture: 1 Timothy 3:13",
       "date_dirty": "2021-06-26T23:00:00.000Z",
       "date": "27 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=BezGIpCtQT8&t=1123s",
@@ -1442,10 +1514,10 @@
       "sortId": 199
     },
     {
-      "title": "A Picture of Biblical Love",
+      "title": "Title: A Picture of Biblical Love",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Corinthians 13",
+      "scripture": "Scripture: 1 Corinthians 13",
       "date_dirty": "2021-06-19T23:00:00.000Z",
       "date": "20 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=5-V1QMzO14o&t=937s",
@@ -1453,10 +1525,10 @@
       "sortId": 198
     },
     {
-      "title": "What's the Deal With Deacons? - Responsibilities",
+      "title": "Title: What's the Deal With Deacons? - Responsibilities",
       "speaker": "Ryan King",
       "series": "What's the Deal With Deacons?",
-      "scripture": "1 Timothy 3:8-13",
+      "scripture": "Scripture: 1 Timothy 3:8-13",
       "date_dirty": "2021-06-19T23:00:00.000Z",
       "date": "20 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=5DupZhCFSDs&t=1852s",
@@ -1464,10 +1536,10 @@
       "sortId": 197
     },
     {
-      "title": "Your Kingdom Come",
+      "title": "Title: Your Kingdom Come",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:9-13",
+      "scripture": "Scripture: Matthew 6:9-13",
       "date_dirty": "2021-06-12T23:00:00.000Z",
       "date": "13 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=ldrRHMLwIJc&t=1025s",
@@ -1475,10 +1547,10 @@
       "sortId": 196
     },
     {
-      "title": "What's the Deal With Deacons? - Representatives",
+      "title": "Title: What's the Deal With Deacons? - Representatives",
       "speaker": "Ryan King",
       "series": "What's the Deal With Deacons?",
-      "scripture": "Acts 6:8-10, Acts 8:1-8 & Romans 16:1-2",
+      "scripture": "Scripture: Acts 6:8-10, Acts 8:1-8 & Romans 16:1-2",
       "date_dirty": "2021-06-12T23:00:00.000Z",
       "date": "13 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=j9CiDkMTj3M&t=1960s",
@@ -1486,10 +1558,10 @@
       "sortId": 195
     },
     {
-      "title": "Hallowed Be Your Name",
+      "title": "Title: Hallowed Be Your Name",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:9-13",
+      "scripture": "Scripture: Matthew 6:9-13",
       "date_dirty": "2021-06-05T23:00:00.000Z",
       "date": "06 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=4UF8lOsnLY4&t=1980s",
@@ -1497,10 +1569,10 @@
       "sortId": 194
     },
     {
-      "title": "What's the Deal With Deacons? - Roots",
+      "title": "Title: What's the Deal With Deacons? - Roots",
       "speaker": "Ryan King",
       "series": "What's the Deal With Deacons?",
-      "scripture": "Acts 6:1-7",
+      "scripture": "Scripture: Acts 6:1-7",
       "date_dirty": "2021-06-05T23:00:00.000Z",
       "date": "06 June 2021",
       "youtubeUrl": "https://youtube.com/watch?v=8NdMfAOhIgE&t=2129s",
@@ -1508,10 +1580,10 @@
       "sortId": 193
     },
     {
-      "title": "What Baptism Shows",
+      "title": "Title: What Baptism Shows",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Colossians 2:1-15",
+      "scripture": "Scripture: Colossians 2:1-15",
       "date_dirty": "2021-05-29T23:00:00.000Z",
       "date": "30 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=ZF4dfLYVziY&t=1665s",
@@ -1519,10 +1591,10 @@
       "sortId": 192
     },
     {
-      "title": "The Throne Room of God",
+      "title": "Title: The Throne Room of God",
       "speaker": "Regan King",
       "series": "default",
-      "scripture": "Revelation 4",
+      "scripture": "Scripture: Revelation 4",
       "date_dirty": "2021-05-22T23:00:00.000Z",
       "date": "23 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=nSCblY4IpWo&t=1124s",
@@ -1530,10 +1602,10 @@
       "sortId": 191
     },
     {
-      "title": "A Pattern of Prayer",
+      "title": "Title: A Pattern of Prayer",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:9-13",
+      "scripture": "Scripture: Matthew 6:9-13",
       "date_dirty": "2021-05-22T23:00:00.000Z",
       "date": "23 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=H1EYUH_vbhM&t=1995s",
@@ -1541,10 +1613,10 @@
       "sortId": 190
     },
     {
-      "title": "The Work of the Holy Spirit",
+      "title": "Title: The Work of the Holy Spirit",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Acts 19:1-10",
+      "scripture": "Scripture: Acts 19:1-10",
       "date_dirty": "2021-05-15T23:00:00.000Z",
       "date": "16 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=HnzTkaMIXw8&t=0s",
@@ -1552,10 +1624,10 @@
       "sortId": 189
     },
     {
-      "title": "The Lord Will Be King",
+      "title": "Title: The Lord Will Be King",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 14",
+      "scripture": "Scripture: Zechariah 14",
       "date_dirty": "2021-05-15T23:00:00.000Z",
       "date": "16 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Ic6tELZXDCM&t=1515s",
@@ -1563,10 +1635,10 @@
       "sortId": 188
     },
     {
-      "title": "Praying Without Pretense",
+      "title": "Title: Praying Without Pretense",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Matthew 6:5-13",
+      "scripture": "Scripture: Matthew 6:5-13",
       "date_dirty": "2021-05-08T23:00:00.000Z",
       "date": "09 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=PR9LK1LBvxw&t=987s",
@@ -1574,10 +1646,10 @@
       "sortId": 187
     },
     {
-      "title": "The Good Shepherd",
+      "title": "Title: The Good Shepherd",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 13:7-9",
+      "scripture": "Scripture: Zechariah 13:7-9",
       "date_dirty": "2021-05-08T23:00:00.000Z",
       "date": "09 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=KoG25it5alI&t=2175s",
@@ -1585,10 +1657,10 @@
       "sortId": 186
     },
     {
-      "title": "Faith and Politics",
+      "title": "Title: Faith and Politics",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Jeremiah 9:4-9",
+      "scripture": "Scripture: Jeremiah 9:4-9",
       "date_dirty": "2021-05-01T23:00:00.000Z",
       "date": "02 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=cX7IJyskLZc&t=1000s",
@@ -1596,10 +1668,10 @@
       "sortId": 185
     },
     {
-      "title": "False Prophets Can't Save You, They Need Saving!",
+      "title": "Title: False Prophets Can't Save You, They Need Saving!",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 13:1-6",
+      "scripture": "Scripture: Zechariah 13:1-6",
       "date_dirty": "2021-05-01T23:00:00.000Z",
       "date": "02 May 2021",
       "youtubeUrl": "https://youtube.com/watch?v=lvsX1-hoYGU&t=2175s",
@@ -1607,10 +1679,10 @@
       "sortId": 184
     },
     {
-      "title": "Paul's Final Words of Exhortation and Benediction",
+      "title": "Title: Paul's Final Words of Exhortation and Benediction",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 5:16-28",
+      "scripture": "Scripture: 1 Thessalonians 5:16-28",
       "date_dirty": "2021-04-24T23:00:00.000Z",
       "date": "25 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=8vvK2Az8WrQ&t=670s",
@@ -1618,10 +1690,10 @@
       "sortId": 183
     },
     {
-      "title": "Why Might We Weep?: Godly Grief and Those Who Have It",
+      "title": "Title: Why Might We Weep?: Godly Grief and Those Who Have It",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 12:10-14",
+      "scripture": "Scripture: Zechariah 12:10-14",
       "date_dirty": "2021-04-24T23:00:00.000Z",
       "date": "25 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=xx1W-GXMHr8&t=1620s",
@@ -1629,10 +1701,10 @@
       "sortId": 182
     },
     {
-      "title": "Trials of Various Kinds",
+      "title": "Title: Trials of Various Kinds",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "James 1:2-4",
+      "scripture": "Scripture: James 1:2-4",
       "date_dirty": "2021-04-17T23:00:00.000Z",
       "date": "18 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=fbAKjVCKMco&t=890s",
@@ -1640,10 +1712,10 @@
       "sortId": 181
     },
     {
-      "title": "He is Able",
+      "title": "Title: He is Able",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 12:1-9",
+      "scripture": "Scripture: Zechariah 12:1-9",
       "date_dirty": "2021-04-17T23:00:00.000Z",
       "date": "18 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=_4MXayhUPmU&t=2299s",
@@ -1651,10 +1723,10 @@
       "sortId": 180
     },
     {
-      "title": "The Healthy Church",
+      "title": "Title: The Healthy Church",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 5:12-15",
+      "scripture": "Scripture: 1 Thessalonians 5:12-15",
       "date_dirty": "2021-04-10T23:00:00.000Z",
       "date": "11 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=TBj76cEk_rw&t=1189s",
@@ -1662,10 +1734,10 @@
       "sortId": 179
     },
     {
-      "title": "A Warning to Hurtful Sheep",
+      "title": "Title: A Warning to Hurtful Sheep",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 11:4-17",
+      "scripture": "Scripture: Zechariah 11:4-17",
       "date_dirty": "2021-04-10T23:00:00.000Z",
       "date": "11 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=UZ-_6ODBy4Y&t=2863s",
@@ -1673,10 +1745,10 @@
       "sortId": 178
     },
     {
-      "title": "The Empty Tomb: Man's Prank or God's Power?",
+      "title": "Title: The Empty Tomb: Man's Prank or God's Power?",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Matthew 28",
+      "scripture": "Scripture: Matthew 28",
       "date_dirty": "2021-04-03T23:00:00.000Z",
       "date": "04 April 2021",
       "youtubeUrl": "https://youtube.com/watch?v=1iAJOI_EH-w&t=2060s",
@@ -1684,10 +1756,10 @@
       "sortId": 177
     },
     {
-      "title": "Here is Your King",
+      "title": "Title: Here is Your King",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "John 19:1-6",
+      "scripture": "Scripture: John 19:1-6",
       "date_dirty": "2021-03-28T00:00:00.000Z",
       "date": "28 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=6RRoSVBfGwI&t=1081s",
@@ -1695,10 +1767,10 @@
       "sortId": 176
     },
     {
-      "title": "Hope for Hurting Sheep",
+      "title": "Title: Hope for Hurting Sheep",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 10:3-11:3",
+      "scripture": "Scripture: Zechariah 10:3-11:3",
       "date_dirty": "2021-03-28T00:00:00.000Z",
       "date": "28 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Zq9JhYXJ6uY&t=2029s",
@@ -1706,10 +1778,10 @@
       "sortId": 175
     },
     {
-      "title": "Be Watchful and Sober",
+      "title": "Title: Be Watchful and Sober",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 5:1-11",
+      "scripture": "Scripture: 1 Thessalonians 5:1-11",
       "date_dirty": "2021-03-21T00:00:00.000Z",
       "date": "21 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Gap2s6Ibl2I&t=1255s",
@@ -1717,10 +1789,10 @@
       "sortId": 174
     },
     {
-      "title": "The Problem of Prayerlessness",
+      "title": "Title: The Problem of Prayerlessness",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 10:1-2",
+      "scripture": "Scripture: Zechariah 10:1-2",
       "date_dirty": "2021-03-21T00:00:00.000Z",
       "date": "21 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=XwMyGlJ-sd8&t=2079s",
@@ -1728,10 +1800,10 @@
       "sortId": 173
     },
     {
-      "title": "The Meaning, Measure and Message of Generosity",
+      "title": "Title: The Meaning, Measure and Message of Generosity",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "2 Corinthians 9:6-14",
+      "scripture": "Scripture: 2 Corinthians 9:6-14",
       "date_dirty": "2021-03-14T00:00:00.000Z",
       "date": "14 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=NDG0BstgMPE&t=795s",
@@ -1739,10 +1811,10 @@
       "sortId": 172
     },
     {
-      "title": "Her Children Rise Up and Call Her Blessed",
+      "title": "Title: Her Children Rise Up and Call Her Blessed",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Proverbs 31:10-31",
+      "scripture": "Scripture: Proverbs 31:10-31",
       "date_dirty": "2021-03-14T00:00:00.000Z",
       "date": "14 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Vy_ubE-AM7w&t=2025s",
@@ -1750,10 +1822,10 @@
       "sortId": 171
     },
     {
-      "title": "Why Can We Trust the Scriptures",
+      "title": "Title: Why Can We Trust the Scriptures",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Various Scriptures",
+      "scripture": "Scripture: Various Scriptures",
       "date_dirty": "2021-03-07T00:00:00.000Z",
       "date": "07 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=sCMmH06jJ5g&t=982s",
@@ -1761,10 +1833,10 @@
       "sortId": 170
     },
     {
-      "title": "You Ain't All That!",
+      "title": "Title: You Ain't All That!",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 9",
+      "scripture": "Scripture: Zechariah 9",
       "date_dirty": "2021-03-07T00:00:00.000Z",
       "date": "07 March 2021",
       "youtubeUrl": "https://youtube.com/watch?v=egWUB9ieAJc&t=2075s",
@@ -1772,10 +1844,10 @@
       "sortId": 169
     },
     {
-      "title": "Our Eternal Hope",
+      "title": "Title: Our Eternal Hope",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 4:13-18",
+      "scripture": "Scripture: 1 Thessalonians 4:13-18",
       "date_dirty": "2021-02-28T00:00:00.000Z",
       "date": "28 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Ij1EquheMxE&t=1360s",
@@ -1783,10 +1855,10 @@
       "sortId": 168
     },
     {
-      "title": "The Faith to Feast Part 2",
+      "title": "Title: The Faith to Feast Part 2",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 8",
+      "scripture": "Scripture: Zechariah 8",
       "date_dirty": "2021-02-28T00:00:00.000Z",
       "date": "28 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=HvY0RdkD2h8&t=1332s",
@@ -1794,10 +1866,10 @@
       "sortId": 167
     },
     {
-      "title": "A Sanctified Walk",
+      "title": "Title: A Sanctified Walk",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 4:1-12",
+      "scripture": "Scripture: 1 Thessalonians 4:1-12",
       "date_dirty": "2021-02-21T00:00:00.000Z",
       "date": "21 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=F8SdcNGSR_8&t=903s",
@@ -1805,10 +1877,10 @@
       "sortId": 166
     },
     {
-      "title": "The Faith to Feast Part 1",
+      "title": "Title: The Faith to Feast Part 1",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 8",
+      "scripture": "Scripture: Zechariah 8",
       "date_dirty": "2021-02-21T00:00:00.000Z",
       "date": "21 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=CgVESRlItp0&t=1738s",
@@ -1816,10 +1888,10 @@
       "sortId": 165
     },
     {
-      "title": "Living a Life Pleasing Unto God",
+      "title": "Title: Living a Life Pleasing Unto God",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "1 Thessalonians 4",
+      "scripture": "Scripture: 1 Thessalonians 4",
       "date_dirty": "2021-02-14T00:00:00.000Z",
       "date": "14 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=nX1EJtgF3uk&t=1320s",
@@ -1827,10 +1899,10 @@
       "sortId": 164
     },
     {
-      "title": "Can I Stop Now?",
+      "title": "Title: Can I Stop Now?",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 7:1-14",
+      "scripture": "Scripture: Zechariah 7:1-14",
       "date_dirty": "2021-02-14T00:00:00.000Z",
       "date": "14 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=n-kGLy81pFM&t=2010s",
@@ -1838,10 +1910,10 @@
       "sortId": 163
     },
     {
-      "title": "\"Teach Us to Number Our Days\": Facing the Reality of Our Mortality",
+      "title": "Title: \"Teach Us to Number Our Days\": Facing the Reality of Our Mortality",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Psalm 90",
+      "scripture": "Scripture: Psalm 90",
       "date_dirty": "2021-02-07T00:00:00.000Z",
       "date": "07 February 2021",
       "youtubeUrl": "https://youtube.com/watch?v=QgTQTQbfQ1Q&t=2000s",
@@ -1849,10 +1921,10 @@
       "sortId": 162
     },
     {
-      "title": "Focused Faith in the Face of Fear",
+      "title": "Title: Focused Faith in the Face of Fear",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Psalm 56",
+      "scripture": "Scripture: Psalm 56",
       "date_dirty": "2021-01-31T00:00:00.000Z",
       "date": "31 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=vQuPBhJ0s38&t=916s",
@@ -1860,10 +1932,10 @@
       "sortId": 161
     },
     {
-      "title": "Crown Him!",
+      "title": "Title: Crown Him!",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 6:9-15",
+      "scripture": "Scripture: Zechariah 6:9-15",
       "date_dirty": "2021-01-31T00:00:00.000Z",
       "date": "31 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=fA_fflCLuXg&t=1897s",
@@ -1871,10 +1943,10 @@
       "sortId": 160
     },
     {
-      "title": "What is Your Life?",
+      "title": "Title: What is Your Life?",
       "speaker": "Regan King",
       "series": "default",
-      "scripture": "James 4:13-17",
+      "scripture": "Scripture: James 4:13-17",
       "date_dirty": "2021-01-24T00:00:00.000Z",
       "date": "24 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=A9eE9KDM5cM&t=615s",
@@ -1882,10 +1954,10 @@
       "sortId": 159
     },
     {
-      "title": "How Long? Not Long!",
+      "title": "Title: How Long? Not Long!",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 6:1-8",
+      "scripture": "Scripture: Zechariah 6:1-8",
       "date_dirty": "2021-01-24T00:00:00.000Z",
       "date": "24 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=MQsqqyhfrlw&t=1706s",
@@ -1893,10 +1965,10 @@
       "sortId": 158
     },
     {
-      "title": "God's Presence Sustains His People",
+      "title": "Title: God's Presence Sustains His People",
       "speaker": "Charles Efedua",
       "series": "default",
-      "scripture": "Daniel 3:13-30",
+      "scripture": "Scripture: Daniel 3:13-30",
       "date_dirty": "2021-01-17T00:00:00.000Z",
       "date": "17 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=6HXEujs9sTA&t=370s",
@@ -1904,10 +1976,10 @@
       "sortId": 157
     },
     {
-      "title": "Spiritual Housecleaning: Systemic Sin and the Sovereignty of God Who Saves",
+      "title": "Title: Spiritual Housecleaning: Systemic Sin and the Sovereignty of God Who Saves",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Zechariah 5:5-11",
+      "scripture": "Scripture: Zechariah 5:5-11",
       "date_dirty": "2021-01-17T00:00:00.000Z",
       "date": "17 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=DCz4mXjUBw0&t=1856s",
@@ -1915,10 +1987,10 @@
       "sortId": 156
     },
     {
-      "title": "The God of Peace Will Soon Crush Satan Under Your Feet",
+      "title": "Title: The God of Peace Will Soon Crush Satan Under Your Feet",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Romans 16",
+      "scripture": "Scripture: Romans 16",
       "date_dirty": "2021-01-10T00:00:00.000Z",
       "date": "10 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=Ga5L2l4R4qs&t=1878s",
@@ -1926,10 +1998,10 @@
       "sortId": 155
     },
     {
-      "title": "One Spirit, One Christ, One Body",
+      "title": "Title: One Spirit, One Christ, One Body",
       "speaker": "Emmanuel Ayoola",
       "series": "default",
-      "scripture": "1 Corinthians 12:12-31",
+      "scripture": "Scripture: 1 Corinthians 12:12-31",
       "date_dirty": "2021-01-03T00:00:00.000Z",
       "date": "03 January 2021",
       "youtubeUrl": "https://youtube.com/watch?v=jxKXvQb2NXo&t=1856s",
@@ -1937,10 +2009,10 @@
       "sortId": 154
     },
     {
-      "title": "New Year's Eve 2020",
+      "title": "Title: New Year's Eve 2020",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Various Scriptures in Esther",
+      "scripture": "Scripture: Various Scriptures in Esther",
       "date_dirty": "2020-12-31T00:00:00.000Z",
       "date": "31 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=-Wcu5A7h0ek&t=2435s",
@@ -1948,10 +2020,10 @@
       "sortId": 153
     },
     {
-      "title": "",
+      "title": "Title:",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Matthew 2:19-23",
+      "scripture": "Scripture: Matthew 2:19-23",
       "date_dirty": "2020-12-27T00:00:00.000Z",
       "date": "27 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=jCnsOlVhDG4&t=1598s",
@@ -1959,10 +2031,10 @@
       "sortId": 152
     },
     {
-      "title": "",
+      "title": "Title:",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Luke 1:26-38",
+      "scripture": "Scripture: Luke 1:26-38",
       "date_dirty": "2020-12-25T00:00:00.000Z",
       "date": "25 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=5TGKTxqfRag&t=1295s",
@@ -1970,10 +2042,10 @@
       "sortId": 151
     },
     {
-      "title": "",
+      "title": "Title:",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Matthew 2:13-18",
+      "scripture": "Scripture: Matthew 2:13-18",
       "date_dirty": "2020-12-20T00:00:00.000Z",
       "date": "20 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=Vv4Ll1uLOYM&t=2363s",
@@ -1993,10 +2065,10 @@
       "sortId": 149
     },
     {
-      "title": "",
+      "title": "Title:",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Matthew 2:1-12",
+      "scripture": "Scripture: Matthew 2:1-12",
       "date_dirty": "2020-12-13T00:00:00.000Z",
       "date": "13 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=OJGkIG9ybHk&t=1726s",
@@ -2004,10 +2076,10 @@
       "sortId": 148
     },
     {
-      "title": "",
+      "title": "Title:",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Matthew 1:18-24",
+      "scripture": "Scripture: Matthew 1:18-24",
       "date_dirty": "2020-12-06T00:00:00.000Z",
       "date": "06 December 2020",
       "youtubeUrl": "https://youtube.com/watch?v=YHcOTPB88_Y&t=2034s",
@@ -2039,10 +2111,10 @@
       "sortId": 145
     },
     {
-      "title": "What is the Point?",
+      "title": "Title: What is the Point?",
       "speaker": "Barry King",
       "series": "default",
-      "scripture": "Acts 17:16-34",
+      "scripture": "Scripture: Acts 17:16-34",
       "date_dirty": "2020-11-22T00:00:00.000Z",
       "date": "22 November 2020",
       "youtubeUrl": "https://youtube.com/watch?v=_0kGKICLok8&t=442s",
@@ -2158,10 +2230,10 @@
       "sortId": 135
     },
     {
-      "title": "I Have a Baptism Ahead of Me",
+      "title": "Title: I Have a Baptism Ahead of Me",
       "speaker": "Ryan King",
       "series": "default",
-      "scripture": "Luke 12:49-53",
+      "scripture": "Scripture: Luke 12:49-53",
       "date_dirty": "2020-09-12T23:00:00.000Z",
       "date": "13 September 2020",
       "youtubeUrl": "https://youtube.com/watch?v=wbc-bxqSXRM&t=1664s",

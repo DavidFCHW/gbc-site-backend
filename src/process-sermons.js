@@ -7,16 +7,9 @@ import * as dotenv from 'dotenv';
 
 /*
 TODO:
-  1. Think about removing the createLivestreamObject, to reduce the amount of sermons processed.
-  2. Add series to all of the YouTube sermon descriptions. ✅
-  3. Investigate issue with not all video data being inserted into all-sermons.json/.csv ✅
-  4. Think about hosting options for this script (do this when publishing the site).
-  5. think about test scripts.
-  6. Make sure credentials are not visible when pushing code to remote. ✅
-  7. Use Github Actions for CI/CD.
-  8. Change credentials from personal to church account.
-  9. Change all-data filename to all-sermons.
-
+  1. Think about hosting options for this script (do this when publishing the site).
+  2. think about test scripts.
+  3. Use Github Actions for CI/CD.
  */
 
 
@@ -34,7 +27,7 @@ export var data = {
 };
 
 //IDs of public resources
-const sermonPlaylistId = 'PLypLoRrvfFpPGiPdoDeeDA9Q9wzwTM5I8';
+const sermonPlaylistId = 'PLypLoRrvfFpP2Xt2SVomp3KwJeXa0B1rm';
 const livestreamPlaylistId = 'PLypLoRrvfFpPT3EdmDrUZ9IlVepySdMuz';
 const gbcPodcastId = '1vaBG0PUEdA75ji6cr74d3';
 
@@ -95,10 +88,20 @@ async function createLivestreamObject(item) {
   let description = item.snippet.description.toLowerCase();
   let lines = description.split('\n');
 
-  let title = lines.find(line => line.startsWith('title')).substring('title:'.length);
+  let title = lines.find(line => line.startsWith('title'))
+      if(title === undefined) {
+        return;
+      } else {
+        title.substring('title:'.length);
+      }
   title = capitalizeTitle(title.trim());
 
-  let scripture = lines.find(line => line.includes('scripture:')).substring('scripture:'.length);
+  let scripture = lines.find(line => line.includes('scripture:'))
+      if(scripture === undefined) {
+        return;
+      } else {
+        scripture.substring('scripture:'.length);
+      }
   scripture = capitalizeTitle(scripture.trim());
 
   let videoId = item.contentDetails.videoId;
@@ -136,7 +139,8 @@ async function processData(requestParam) {
   while (requestParam.pageToken || next) {
     await youtube.playlistItems.list(requestParam).then(res => {
       let items = res.data.items;
-      if (items[0].snippet.title.toLowerCase().includes('service')) {
+      if (items[0].snippet.title.toLowerCase().includes('morning service') ||
+          items[0].snippet.title.toLowerCase().includes('evening service')) {
         items.forEach(createLivestreamObject);
       } else {
         items.forEach(createSermonObject);
