@@ -6,7 +6,7 @@ import {createObjectCsvWriter} from "csv-writer";
 const all_data_file = 'data/all-sermons.json';
 const all_csv_file = 'data/all-sermons.csv';
 
-
+//sort the data object according to date.
 data.sermons.sort((a, b) => {
     if (new Date(a.date_dirty).getTime() > new Date(b.date_dirty).getTime()) {
         return -1;
@@ -17,6 +17,7 @@ data.sermons.sort((a, b) => {
     }
 });
 
+//assign a sort id for each sermon for wix content manager.
 for (let i = data.sermons.length, j = 0; i > 0; i--, j++) {
     data.sermons[j].sortId = i;
 }
@@ -24,6 +25,7 @@ for (let i = data.sermons.length, j = 0; i > 0; i--, j++) {
 //writing data object to a JSON file.
 jsf.writeFileSync(all_data_file, data, {spaces: 2});
 
+//create csv headers based off json properties.
 let csvHeader = [
     {id: 'title', title: 'Title'},
     {id: 'speaker', title: 'Speaker'},
@@ -36,9 +38,11 @@ let csvHeader = [
     {id: 'spotifyURL', title: 'Spotify URL'}
 ];
 
+//writing data object to a csv file.
 await createObjectCsvWriter({
     path: all_csv_file,
     header: csvHeader
 }).writeRecords(data.sermons);
+
 
 console.log("Total: " + data.sermons.length);

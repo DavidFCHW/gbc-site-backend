@@ -5,23 +5,17 @@ import capitalizeTitle from 'capitalize-title';
 import {createRequestParam, getDate, getSpeaker, getTimestampParam, getSeries, getThumbnailId} from './utils.js';
 import * as dotenv from 'dotenv';
 
-/*
-TODO:
-  1. Think about hosting options for this script (do this when publishing the site).
-  2. think about test scripts.
-  3. Use Github Actions for CI/CD.
- */
-
 
 //API keys and secrets
-dotenv.config();
-const client_id = process.env.CLIENT_ID;
-const client_secret = process.env.CLIENT_SECRET;
-const api_key = process.env.API_KEY;
+dotenv.config(); //loads secrets in .env file to process.env
+const spotify_client_id = process.env.SPOTIFY_CLIENT_ID;
+const spotify_client_secret = process.env.SPOTIFY_CLIENT_SECRET;
+const api_key = process.env.YOUTUBE_API_KEY;
 
 const youtubeBaseURL = 'https://youtube.com/watch?v=';
-const driveImageBaseURL = 'https://drive.google.com/uc?id=';
+const driveImageBaseURL = 'https://drive.google.com/uc?id='; // for thumbnails
 
+//an object containing the array of all the sermon data in objects.
 export var data = {
   sermons: []
 };
@@ -38,25 +32,26 @@ const youtube = google.youtube({
 });
 
 const spotify = new SpotifyWebApi ({
-  clientId: client_id,
-  clientSecret: client_secret
+  clientId: spotify_client_id,
+  clientSecret: spotify_client_secret
 });
 
 
 /**
- *
- * @param item
+ * Takes in video object from YouTube API response and takes the key metadata
+ * to create an object for a sermon and pushes it to the data object array.
+ * @param video
  */
-async function createSermonObject(item) {
-  let titleArray = item.snippet.title.split(' - ');
+async function createSermonObject(video) {
+  let titleArray = video.snippet.title.split(' - ');
   let title = capitalizeTitle(titleArray[0].trim());
   let scripture = capitalizeTitle(titleArray[1].trim());
-  let description = item.snippet.description;
+  let description = video.snippet.description;
   description = description === undefined ? description : description.toLowerCase();
-  let videoId = item.contentDetails.videoId;
+  let videoId = video.contentDetails.videoId;
   let desArray = description.split('\n');
   let date_dirty = getDate(desArray);
-  date_dirty = date_dirty === null ? item.contentDetails.videoPublishedAt : date_dirty;
+  date_dirty = date_dirty === null ? video.contentDetails.videoPublishedAt : date_dirty;
   let date = dateFormat(date_dirty, 'dd mmm yyyy');
   // let date = dateFormat(date_dirty, 'mmmm dd, yyyy hh:mm pm');
   let series = getSeries(description);
@@ -81,11 +76,12 @@ async function createSermonObject(item) {
 }
 
 /**
- *
- * @param item
+ * Takes in video (livestream) object from YouTube API response and takes the key metadata
+ * to create an object for a sermon and pushes it to the data object array.
+ * @param video
  */
-async function createLivestreamObject(item) {
-  let description = item.snippet.description.toLowerCase();
+async function createLivestreamObject(video) {
+  let description = video.snippet.description.toLowerCase();
   let lines = description.split('\n');
 
   let title = lines.find(line => line.startsWith('title'))
@@ -104,12 +100,12 @@ async function createLivestreamObject(item) {
       }
   scripture = capitalizeTitle(scripture.trim());
 
-  let videoId = item.contentDetails.videoId;
+  let videoId = video.contentDetails.videoId;
   let urlParams = videoId + getTimestampParam(lines);
 
-  let titleArray = item.snippet.title.split(' - ');
+  let titleArray = video.snippet.title.split(' - ');
   let date_dirty = getDate(titleArray);
-  date_dirty = date_dirty === null ? item.contentDetails.videoPublishedAt : date_dirty;
+  date_dirty = date_dirty === null ? video.contentDetails.videoPublishedAt : date_dirty;
   let date = dateFormat(date_dirty, 'dd mmmm yyyy');
   // let date = dateFormat(getDate(titleArray), 'mmmm dd, yyyy hh:mm pm');
   let series = getSeries(description);
@@ -130,7 +126,8 @@ async function createLivestreamObject(item) {
 }
 
 /**
- *
+ * Takes a request parameter for a particular resource in YouTube and then processes each object in the response
+ * in order to create a custom object for a sermon.
  * @param requestParam
  * @returns {Promise<void>}
  */
@@ -138,12 +135,12 @@ async function processData(requestParam) {
   let next = true;
   while (requestParam.pageToken || next) {
     await youtube.playlistItems.list(requestParam).then(res => {
-      let items = res.data.items;
-      if (items[0].snippet.title.toLowerCase().includes('morning service') ||
-          items[0].snippet.title.toLowerCase().includes('evening service')) {
-        items.forEach(createLivestreamObject);
+      let videos = res.data.items;
+      if (videos[0].snippet.title.toLowerCase().includes('morning service') ||
+          videos[0].snippet.title.toLowerCase().includes('evening service')) {
+        videos.forEach(createLivestreamObject);
       } else {
-        items.forEach(createSermonObject);
+        videos.forEach(createSermonObject);
       }
 
       if (res.data.nextPageToken) {
@@ -158,15 +155,17 @@ async function processData(requestParam) {
   }
 }
 
-
+/**
+ * Gets Spotify API access to retrieve url and apply it to the relevant sermon object.
+ */
 await spotify.clientCredentialsGrant().then(res => {
   spotify.setAccessToken(res.body.access_token);
   return spotify.getShow(gbcPodcastId, {market: 'ES'});
 }).then(res => {
-  let items = res.body.episodes.items;
-  items.forEach(item => {
-    let title = item.name.split('-', 1)[0].trim();
-    let link = item.external_urls.spotify;
+  let episodes = res.body.episodes.items;
+  episodes.forEach(episode => {
+    let title = episode.name.split('-', 1)[0].trim();
+    let link = episode.external_urls.spotify;
 
     let index = data.sermons.findIndex(sermon => sermon.title.toLowerCase() === title.toLowerCase());
     if(index != -1) {
@@ -177,8 +176,9 @@ await spotify.clientCredentialsGrant().then(res => {
   console.log(err);
 });
 
-let sermonRequestParam = createRequestParam(sermonPlaylistId);
-let livestreamRequestParam = createRequestParam(livestreamPlaylistId);
+let sermonRequestParam = createRequestParam(sermonPlaylistId); //creates YouTube request parameter for sermon playlist.
+let livestreamRequestParam = createRequestParam(livestreamPlaylistId); //creates YouTube request parameter for livestream playlist.
+
 
 await processData(sermonRequestParam);
 await processData(livestreamRequestParam);
