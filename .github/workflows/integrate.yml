@@ -28,7 +28,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: |
-          touch .env && touch credentials.json touch && token.json
+          touch .env && touch credentials.json touch && touch token.json
           echo "${{secrets.DOTENV}}" > .env
           echo "${{secrets.GOOGLE_CREDENTIALS}}" > credentials.json
           echo "${{secrets.ACCESS_TOKEN}}" > token.json
