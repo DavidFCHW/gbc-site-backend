@@ -1,0 +1,37 @@
+# This workflow will do a clean installation of node dependencies, setup credentials and secrets, and start the application when a PR is merged into master.
+
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Process Sermons CI
+
+on:
+  pull_request_target:
+    types:
+      - closed
+    branches: [ "master" ]
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: |
+          touch .env && touch credentials.json touch && token.json
+          echo "${{secrets.DOTENV}}" > .env
+          echo "${{secrets.GOOGLE_CREDENTIALS}}" > credentials.json
+          echo "${{secrets.ACCESS_TOKEN}}" > token.json
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm start
