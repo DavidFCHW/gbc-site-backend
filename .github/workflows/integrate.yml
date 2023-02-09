@@ -37,7 +37,7 @@ jobs:
         id: create-json-2
         uses: jsdaniell/create-json@v1.2.2
         with:
-          name: "token.json"
+          name: "../token.json"
           json: ${{ secrets.ACCESS_TOKEN }}
       - run: touch .env && echo "${{ secrets.DOTENV }}" > .env
       - run: npm ci
