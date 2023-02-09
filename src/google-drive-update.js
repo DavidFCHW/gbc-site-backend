@@ -100,7 +100,7 @@ async function updateFile() {
         fileId: getFileId(),
         media: media
     }).then(res => {
-        console.log(res);
+        console.log(res.status + " " + res.statusText);
         console.log(`The file ${res.data.name} (${res.data.id}) has been updated in ${fileMetadata.parents[0]}`)
     }).catch(err => {
         console.log(err, `\nPlease reset ${FILE_DATA}`);
@@ -117,7 +117,7 @@ async function getFileParent() {
         fields: 'nextPageToken, files(id, name)',
         q: "mimeType = 'application/vnd.google-apps.folder' and name = 'website test folder'"
     }).then(res => {
-        console.log(res);
+        console.log(res.status + " " + res.statusText);
         let files = res.data.files;
         files.forEach(file => {
             fileMetadata.parents[0] = file.id;
