@@ -1,4 +1,4 @@
-# This workflow will do a clean installation of node dependencies, setup credentials and secrets, and start the application when a PR is merged into master.
+# This workflow will do a clean installation of node dependencies, setup credentials and secrets, and executes the application when a PR is merged into master.
 
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
@@ -7,12 +7,11 @@ name: Process Sermons CI
 on:
   pull_request_target:
     types:
-      - closed
+      - opened
     branches: [ "master" ]
 
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == true
+  build:
     runs-on: ubuntu-latest
 
 #    strategy:
@@ -43,4 +42,6 @@ jobs:
       - run: touch .env && echo "${{ secrets.DOTENV }}" > .env
       - run: npm ci
       - run: npm run build --if-present
-      - run: npm start
+      - name: execute app 
+        if: github.event.pull_request.merged == true
+        run: npm start
