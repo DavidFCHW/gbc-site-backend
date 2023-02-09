@@ -27,11 +27,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: |
-          touch .env && touch credentials.json && touch token.json
-          echo "${{secrets.DOTENV}}" > .env
-          echo "${{secrets.GOOGLE_CREDENTIALS}}" > credentials.json
-          echo "${{secrets.ACCESS_TOKEN}}" > token.json
+      - name: create-json
+        id: create-json-1
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          - name: "credentials.json"
+          - json: ${{ secrets.GOOGLE_CREDENTIALS }}
+      - name: create-json
+        id: create-json-2
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          - name: "token.json"
+          - json: ${{ secrets.ACCESS_TOKEN }}
+      - run: touch .env && echo "${{ secrets.DOTENV }}" > .env
       - run: npm ci
       - run: npm run build --if-present
       - run: npm start
