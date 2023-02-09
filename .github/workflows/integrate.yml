@@ -43,5 +43,4 @@ jobs:
       - run: touch .env && echo "${{ secrets.DOTENV }}" > .env
       - run: npm ci
       - run: npm run build --if-present
-      - name: execute app
-          run: npm start
+      - run: npm start
