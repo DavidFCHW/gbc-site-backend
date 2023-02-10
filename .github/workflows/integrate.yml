@@ -8,9 +8,10 @@ on:
   pull_request_target:
     types:
       - closed
-    branches: [ "pre-master" ]
+    branches: [ "master" ]
 
 jobs:
+  if: github.event.pull_request.merged == true
   build:
     runs-on: ubuntu-latest
 
@@ -18,7 +19,6 @@ jobs:
 #      matrix:
 #        node-version: [14.x, 16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-    if: github.event.pull_request.merged == true
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
