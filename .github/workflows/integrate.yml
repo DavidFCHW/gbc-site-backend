@@ -7,9 +7,8 @@ name: Process Sermons CI
 on:
   pull_request_target:
     types:
-      - opened
       - closed
-    branches: [ "master" ]
+    branches: [ "pre-master" ]
 
 jobs:
   build:
