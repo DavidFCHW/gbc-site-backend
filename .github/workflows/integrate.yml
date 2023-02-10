@@ -18,7 +18,7 @@ jobs:
 #      matrix:
 #        node-version: [14.x, 16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+    if: github.event.pull_request.merged == true
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -42,6 +42,5 @@ jobs:
       - run: touch .env && echo "${{ secrets.DOTENV }}" > .env
       - run: npm ci
       - run: npm run build --if-present
-      - name: execute app 
-        if: github.event.pull_request.merged == true
+      - name: execute app
         run: npm start
