@@ -2,12 +2,12 @@
 
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Process Sermons CI
+name: Process Sermons
 
 on:
     schedule:
-#      - cron: '00 12,18 * * 0-6'
-      - cron: '*/5 * * * *'
+     - cron: '40 12,18 * * 1-5'
+     - cron: '45 20 * * 0'
 
 jobs:
   build:
